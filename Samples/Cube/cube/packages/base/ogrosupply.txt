@@ -1,0 +1,17 @@
+Ogro's Army Supply Base
+
+v1.1
+
+by David "Drakker" Pelletier
+January 2004 (originaly started in 2002)
+
+
+Changes in v1.1:
+
+-Blown a hole in the big garage like door with a teleport that leads to the blue room.
+-Added a teleport to the small corridors with the windows that leads to the outside section.
+-Changed a lot of powerups and ammoes, balance should be better now.
+-Lowered crates piles so you can pick up powerups from everyside without having to jump 18 times.
+-Made fog a bit thicker so the sand looks red from the inside and the inside looks creepier from the outside.
+
+Original version didn't have a version number

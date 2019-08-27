@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{409E8F6C-A255-4A94-958B-03E79369113A}" SchemaVersion="94">
+	<Modulators>
+		<WorkUnit Name="MIDI" ID="{409E8F6C-A255-4A94-958B-03E79369113A}" PersistMode="Standalone">
+			<ChildrenList>
+				<ModulatorEnvelope Name="ADSR" ID="{ABB691DF-7FB4-43C0-A3FB-15B23CE989EB}" ShortID="695405646">
+					<PropertyList>
+						<Property Name="EnvelopeAttackCurve" Type="Real64" Value="100"/>
+						<Property Name="EnvelopeAttackTime" Type="Real64" Value="0.237"/>
+						<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0.75"/>
+					</PropertyList>
+				</ModulatorEnvelope>
+			</ChildrenList>
+		</WorkUnit>
+	</Modulators>
+</WwiseDocument>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{381C71E6-5E71-4863-AC34-2949A7846ABA}" SchemaVersion="94">
+	<Events>
+		<WorkUnit Name="Ambience" ID="{381C71E6-5E71-4863-AC34-2949A7846ABA}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_24h_New_York_City_Ambience" ID="{2E97B23B-9254-4260-AC1D-8D065CE6E43F}">
+					<ChildrenList>
+						<Action Name="" ID="{26AEDD58-23CA-4B19-9FEF-AB2272E7A7E1}" ShortID="448839868">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="24h New York City Ambience" ID="{9FF5BA49-3A16-4779-9B98-4282201CD746}" WorkUnitID="{0F69E3B2-FFC2-4E1E-B9CB-25CD1A858250}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_24h_New_York_City_Ambience" ID="{B54E3C05-4B46-4FA4-9577-66B19EAAB1A1}">
+					<ChildrenList>
+						<Action Name="" ID="{C0AA9A6A-899D-4CE4-BEA0-152800B4C138}" ShortID="80793268">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="24h New York City Ambience" ID="{9FF5BA49-3A16-4779-9B98-4282201CD746}" WorkUnitID="{0F69E3B2-FFC2-4E1E-B9CB-25CD1A858250}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

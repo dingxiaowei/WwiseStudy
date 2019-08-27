@@ -1,0 +1,37 @@
+# User control settings #
+up      = "UP"
+down    = "DOWN"
+left    = "LEFT"
+right   = "RIGHT"
+action  = "RCONTROL"
+jump    = "LCONTROL"
+
+# Remove the '#' char from the 4 lines below to enable wsad controls #
+#up2     = "W"
+#down2   = "S"
+#left2   = "A"
+#right2  = "D"
+action2 = "LCONTROL"
+
+# Controller Vibration #
+vibration = true
+
+# Change the backbuffer height to a custom value. Limbo was designed for 720. #
+# Lowering backbuffer size will improve performance #
+# Common values: 360, 480, 576, 720, 768, 900, 1080 #
+backbufferheight = 720
+
+# Start limbo in windowed mode #
+windowedmode = true
+
+# Limit the framerate to 30fps for a more framerate consistent experince on slow computers #
+use30hz = false
+
+# Use the 8bit color depth to slightly improve performance at the cost of image quality #
+use8bitrender = false
+
+# Override system language
+# Options are: fr, zh, pt, uk, de, ko, it, es, ja
+#language = "uk"
+
+# To enable 3D anaglyph press "Shift + 3 + D" in-game. Take a guess on how to change it back to normal 2D #

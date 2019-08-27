@@ -1,0 +1,3 @@
+animation active  1-7            (gets the gun in the hands)
+animation pow     8-25           (shoot + reload (depends on weapon))   
+animation active  26-60          (play with the gun, ... )

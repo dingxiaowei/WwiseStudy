@@ -1,0 +1,14 @@
+Powerplant
+
+v1.1
+
+by David "Drakker" Pelletier
+Started in late 2002 as a speedmap with Pushplay, completed v1.0 in 2002, v1.1 in january 2004.
+
+
+Changes in v1.1
+
+-Totaly new lights.
+-That's it. :)
+
+Original version didn't have a version number.

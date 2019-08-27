@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="134">
+	<RootPaths>
+		<ProjectRoot>D:\Study\gitoschina\WwiseStudy\EmptyAudioProject_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\Study\gitoschina\WwiseStudy\EmptyAudioProject_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Study\gitoschina\WwiseStudy\EmptyAudioProject_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Study\gitoschina\WwiseStudy\EmptyAudioProject_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="534561221" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\MainSoundBank</ObjectPath>
+			<ShortName>MainSoundBank</ShortName>
+			<Path>MainSoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3193947170" Name="Hurt" ObjectPath="\Events\MyEvents\Hurt" DurationType="OneShot" DurationMin="0.387052" DurationMax="0.387052"/>
+				<Event Id="2538918815" Name="PlayerShoot" ObjectPath="\Events\MyEvents\PlayerShoot" DurationType="OneShot" DurationMin="1.409569" DurationMax="1.409569"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="96438904" Language="SFX">
+					<ShortName>ZomBear Hurt.wav</ShortName>
+					<Path>SFX\ZomBear Hurt_10C4C929.wem</Path>
+				</File>
+				<File Id="551870752" Language="SFX">
+					<ShortName>Player GunShot.wav</ShortName>
+					<Path>SFX\Player GunShot_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3104675574" Language="SFX">
+			<ObjectPath>\SoundBanks\MainSoundBank\MySoundBank</ObjectPath>
+			<ShortName>MySoundBank</ShortName>
+			<Path>MySoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3193947170" Name="Hurt" ObjectPath="\Events\MyEvents\Hurt" DurationType="OneShot" DurationMin="0.387052" DurationMax="0.387052"/>
+				<Event Id="2538918815" Name="PlayerShoot" ObjectPath="\Events\MyEvents\PlayerShoot" DurationType="OneShot" DurationMin="1.409569" DurationMax="1.409569"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="96438904" Language="SFX">
+					<ShortName>ZomBear Hurt.wav</ShortName>
+					<Path>SFX\ZomBear Hurt_10C4C929.wem</Path>
+				</File>
+				<File Id="551870752" Language="SFX">
+					<ShortName>Player GunShot.wav</ShortName>
+					<Path>SFX\Player GunShot_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

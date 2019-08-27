@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2538918815	PlayerShoot			\MyEvents\PlayerShoot	
+	3193947170	Hurt			\MyEvents\Hurt	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	96438904	ZomBear Hurt	D:\Study\gitoschina\WwiseStudy\EmptyAudioProject_WwiseProject\.cache\Windows\SFX\ZomBear Hurt_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ZomBear Hurt		68340
+	551870752	Player GunShot	D:\Study\gitoschina\WwiseStudy\EmptyAudioProject_WwiseProject\.cache\Windows\SFX\Player GunShot_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player GunShot		248712
+

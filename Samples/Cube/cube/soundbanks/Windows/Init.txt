@@ -1,0 +1,95 @@
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2224580244	Health_Status			\Music\Health_Status	
+	2702523344	Gameplay_Switch			\Music\Gameplay_Switch	
+
+Switch	ID	Name	Switch Group			Notes
+	943860515	Nearly_Dead	Health_Status			
+	1736617117	Badly_Injured	Health_Status			
+	2874639328	Healthy	Health_Status			
+	3519121093	Flesh_Wound	Health_Status			
+	579523862	Explore	Gameplay_Switch			
+	2764240573	Combat	Gameplay_Switch			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	444815956	PlayerLife			\Default Work Unit\PlayerLife	Player is alive or dead.
+	481714212	PlayerInWater			\Default Work Unit\PlayerInWater	Player is in water.
+	1642418719	PlayerHasQuad			\Default Work Unit\PlayerHasQuad	Player is in quad damage mode.
+	3826569560	Music_State			\Music\Music_State	
+
+State	ID	Name	State Group			Notes
+	0	None	PlayerLife			
+	655265632	Alive	PlayerLife			
+	2044049779	Dead	PlayerLife			
+	0	None	PlayerInWater			
+	979470758	Yes	PlayerInWater			
+	1668749452	No	PlayerInWater			
+	0	None	PlayerHasQuad			
+	979470758	Yes	PlayerHasQuad			
+	1668749452	No	PlayerHasQuad			
+	0	None	Music_State			
+	89505537	Gameplay	Music_State			
+	1560169506	Boss	Music_State			
+	1686739444	Story	Music_State			
+	2716678721	Victory	Music_State			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	1048049432	Dead	PlayerLife	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Environmental		
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	151362964	PlayerHealth			\Default Work Unit\PlayerHealth	
+	4122641472	Stinger_Sidechain			\Music\Stinger_Sidechain	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	204612474	Wwise 201 Music			\Default Work Unit\Master Audio Bus\Music\Wwise 201 Music	
+	393239870	SFX			\Default Work Unit\Master Audio Bus\Environmental\SFX	
+	498858591	Boss Synths			\Default Work Unit\Master Audio Bus\Music\Wwise 201 Music\201 Main\Boss\Boss Synths	
+	526254837	201 Stingers			\Default Work Unit\Master Audio Bus\Music\Wwise 201 Music\201 Stingers	
+	579523862	Explore			\Default Work Unit\Master Audio Bus\Music\Wwise 201 Music\201 Main\Explore	
+	779278001	Death			\Default Work Unit\Master Audio Bus\Music\Wwise 201 Music\201 Main\Death	
+	805203703	Master Secondary Bus			\Default Work Unit\Master Secondary Bus	
+	1467963052	Weapons			\Default Work Unit\Master Audio Bus\Environmental\SFX\Weapons	
+	1560169506	Boss			\Default Work Unit\Master Audio Bus\Music\Wwise 201 Music\201 Main\Boss	
+	1686739444	Story			\Default Work Unit\Master Audio Bus\Music\Wwise 201 Music\201 Main\Story	
+	1973600711	Environmental			\Default Work Unit\Master Audio Bus\Environmental	
+	2151963051	Items			\Default Work Unit\Master Audio Bus\Environmental\SFX\Items	
+	2554360235	201 Main			\Default Work Unit\Master Audio Bus\Music\Wwise 201 Music\201 Main	
+	2716678721	Victory			\Default Work Unit\Master Audio Bus\Music\Wwise 201 Music\201 Main\Victory	
+	2764240573	Combat			\Default Work Unit\Master Audio Bus\Music\Wwise 201 Music\201 Main\Combat	
+	3170124113	Voice			\Default Work Unit\Master Audio Bus\Environmental\Voice	
+	3381091279	Main Character			\Default Work Unit\Master Audio Bus\Environmental\SFX\Main Character	
+	3761286811	Environments			\Default Work Unit\Master Audio Bus\Environmental\Environments	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3858746980	Monsters			\Default Work Unit\Master Audio Bus\Environmental\SFX\Monsters	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	194525819	env_corridor			\Default Work Unit\Master Audio Bus\Environmental\Environments\env_corridor	
+	783969252	env_small_room			\Default Work Unit\Master Audio Bus\Environmental\Environments\env_small_room	
+	3877888880	env_large_room			\Default Work Unit\Master Audio Bus\Environmental\Environments\env_large_room	
+	4102571502	env_medium_room			\Default Work Unit\Master Audio Bus\Environmental\Environments\env_medium_room	
+
+Effect plug-ins	ID	Name	Type				Notes
+	105864315	Wwise Gain (Custom)	Wwise Gain			
+	109323578	Wwise Compressor (Custom)	Wwise Compressor			
+	113792054	Wwise Gain (Custom)	Wwise Gain			
+	150579494	Wwise Gain (Custom)	Wwise Gain			
+	180409414	Wwise Gain (Custom)	Wwise Gain			
+	194525819	env_corridor	Wwise RoomVerb			
+	245559507	Wwise Gain (Custom)	Wwise Gain			
+	280354944	Wwise Meter (Custom)	Wwise Meter			
+	444880069	Wwise Gain (Custom)	Wwise Gain			
+	725884767	Wwise Gain (Custom)	Wwise Gain			
+	758131623	Wwise Gain (Custom)	Wwise Gain			
+	783969252	env_small_room	Wwise RoomVerb			
+	786099187	Wwise Gain (Custom)	Wwise Gain			
+	953188324	Default (Custom)	Wwise Peak Limiter			
+	1904434771	Medium_Room1	Wwise Matrix Reverb			
+	2098638826	Underground_Parking1	Wwise Matrix Reverb			
+	3796564934	Hard_Knee_Minus_3dB_RMS	Wwise Compressor			
+	3877888880	env_large_room	Wwise RoomVerb			
+	4102571502	env_medium_room	Wwise RoomVerb			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

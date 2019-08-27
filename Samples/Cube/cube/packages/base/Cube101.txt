@@ -1,0 +1,39 @@
+---------Cube101---------------------------
+A single player "training" level for CUBE release version 10/20/02
+
+by spentron (Bill Spencer)
+spentron@draac.com              www.intergate.com/~spentron
+
+--INFOS------------------------------------------------------------
+released: 6/30/03
+game: Cube (http://wouter.fov120.com/cube)
+format: single player
+base: scratch (256x256 cubes)
+
+-- Installation -----------------------------------------------------
+Extract all files into the folder   packages/base   within your CUBE folder.
+To play: open console using tilde (~) key. Type   sp cube101   and enter 
+(if that doesn't work, type   mode -2   and then   map cube101  into the console).
+
+--MAP NOTES---------------------------------------------------
+Check for screen messages after all triggers (carrots).
+
+Do not activate edit mode when playing, gameplay will be ruined. If this
+accidently happens, restart the level or reload a saved game. If accidently
+hitting the edit key (normally E) is a problem, bind the key to another 
+function (example command:  bind e "weapon" ).
+
+--THANKS-----
+Aardappel (engine, etc.), DarthVim (hudguns), Brian "EvilBastard" Collins (Bauul, 
+Ratamahatta), Conrad (Goblin), Psionic (hellpig), James Green (Knight), 
+Magarnigal (Ogro), Andreas Möller et al. (rhino), Ryan Butts & Jeramy Cooke (slith),
+and the texture artists who made Cube.
+
+-- Permissions/Copyright ------------------------------------------------------
+Map design only is copyright 2003 Bill Spencer.
+You're free to distribute this map as you wish as long as: you make no
+profit, and leave the files intact.  However, Internet distribution is to be only through
+web sites of my choosing as long as one exists. You're free to use the map as a base for 
+your own work if you ask for permission and give me credit.  System concepts are released 
+for use with Cube maps.
+---------------------------------------------------------

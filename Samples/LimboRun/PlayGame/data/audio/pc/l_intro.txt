@@ -1,0 +1,24 @@
+Event	ID	Name			Wwise Object Path	Notes
+	620674879	menuMainStop			\Default Work Unit\menu\screens\menuMainStop	
+	1576123810	menuMainFirstRun			\Default Work Unit\intro\menuMainFirstRun	
+	1645605309	menuMainStart			\Default Work Unit\menu\screens\menuMainStart	
+	1910354734	menuIntroStart			\Default Work Unit\intro\menuIntroStart	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	79795621	RTPC_amb_sws			\Default Work Unit\ambience\scaledDist\RTPC_amb_sws	
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	240235190	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\intro\menuMainFirstRun\rashnoise\rashclickDEL\silence\Wwise Silence	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	360867	sfx_rashnoiseamb03	D:\jenkins\ws\wwise_v2019.1\limbo\Resources\audio\Limbo\.cache\Windows\SFX\sfx_rashnoiseamb03_345A21E4.wem		\Actor-Mixer Hierarchy\Default Work Unit\intro\menuMainFirstRun\rashnoise\rashnoiseamb\sfx_rashnoiseamb03		10572
+	1282294	sfx_clickverb04	D:\jenkins\ws\wwise_v2019.1\limbo\Resources\audio\Limbo\.cache\Windows\SFX\sfx_clickverb04_345A21E4.wem		\Actor-Mixer Hierarchy\Default Work Unit\intro\menuMainFirstRun\rashnoise\rashclickDEL\rashclick\sfx_clickverb04		7417
+	2854379	sfx_clickverb05	D:\jenkins\ws\wwise_v2019.1\limbo\Resources\audio\Limbo\.cache\Windows\SFX\sfx_clickverb05_345A21E4.wem		\Actor-Mixer Hierarchy\Default Work Unit\intro\menuMainFirstRun\rashnoise\rashclickDEL\rashclick\sfx_clickverb05		10237
+	4390948	sfx_rashnoiseamb02	D:\jenkins\ws\wwise_v2019.1\limbo\Resources\audio\Limbo\.cache\Windows\SFX\sfx_rashnoiseamb02_345A21E4.wem		\Actor-Mixer Hierarchy\Default Work Unit\intro\menuMainFirstRun\rashnoise\rashnoiseamb\sfx_rashnoiseamb02		10671
+	8714052	sfx_windtallgrasstape	D:\jenkins\ws\wwise_v2019.1\limbo\Resources\audio\Limbo\.cache\Windows\SFX\sfx_windtallgrasstape_345A21E4.wem		\Actor-Mixer Hierarchy\Default Work Unit\intro\menuMainFirstRun\windtallgrass\sfx_windtallgrasstape		171320
+	20556773	sfx_windtallgrasstapeFRZtapeDVRloop	D:\jenkins\ws\wwise_v2019.1\limbo\Resources\audio\Limbo\.cache\Windows\SFX\sfx_windtallgrasstapeFRZtapeDVRloop_9352514E.wem		\Actor-Mixer Hierarchy\Default Work Unit\intro\menuMainFirstRun\sfx_windtallgrasstapeFRZtapeDVRloop		43803
+	29140487	sfx_clickverb02	D:\jenkins\ws\wwise_v2019.1\limbo\Resources\audio\Limbo\.cache\Windows\SFX\sfx_clickverb02_345A21E4.wem		\Actor-Mixer Hierarchy\Default Work Unit\intro\menuMainFirstRun\rashnoise\rashclickDEL\rashclick\sfx_clickverb02		10525
+	43642796	sfx_rashnoiseamb01	D:\jenkins\ws\wwise_v2019.1\limbo\Resources\audio\Limbo\.cache\Windows\SFX\sfx_rashnoiseamb01_345A21E4.wem		\Actor-Mixer Hierarchy\Default Work Unit\intro\menuMainFirstRun\rashnoise\rashnoiseamb\sfx_rashnoiseamb01		9371
+	46954986	sfx_rashnoiseamb04	D:\jenkins\ws\wwise_v2019.1\limbo\Resources\audio\Limbo\.cache\Windows\SFX\sfx_rashnoiseamb04_345A21E4.wem		\Actor-Mixer Hierarchy\Default Work Unit\intro\menuMainFirstRun\rashnoise\rashnoiseamb\sfx_rashnoiseamb04		15764
+	603611802	GraceLP02OctLPtapeDVRblur08msTPed	D:\jenkins\ws\wwise_v2019.1\limbo\Resources\audio\Limbo\.cache\Windows\SFX\GraceLP02OctLPtapeDVRblur08msTPed_345A21E4.wem		\Actor-Mixer Hierarchy\Default Work Unit\intro\menuIntro\GraceLP02OctLPtapeDVRblur08msTPed		188666
+

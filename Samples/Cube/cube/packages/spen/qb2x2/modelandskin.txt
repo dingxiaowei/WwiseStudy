@@ -1,0 +1,5 @@
+model by dcp
+texture source v128-03a.jpg by sock
+formatted as skin by spentron
+
+Do not distribute the skin without the model as it makes no sense.

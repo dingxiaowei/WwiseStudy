@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8E30088F-3B64-48D3-8CBB-C37BED36118F}" SchemaVersion="94">
+	<SoundcasterSessions>
+		<WorkUnit Name="MIDI" ID="{8E30088F-3B64-48D3-8CBB-C37BED36118F}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="MIDI" ID="{9C02096E-8E29-4029-9D49-778F85015C87}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Falling" ID="{C11640EE-39E3-46D0-8F0E-A696522F5ED0}" WorkUnitID="{170E89B3-0253-45C4-A46B-E86073778489}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Defeat" ID="{E6BF27A8-7A86-48F3-9C38-4D94F487FC79}" WorkUnitID="{170E89B3-0253-45C4-A46B-E86073778489}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Start_MIDI_Music" ID="{4055E964-46A8-4BE0-A072-52035C0C865D}" WorkUnitID="{170E89B3-0253-45C4-A46B-E86073778489}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Neutral" ID="{ECF1FA83-D23C-4E63-93DB-6C8074FBB063}" WorkUnitID="{170E89B3-0253-45C4-A46B-E86073778489}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Again" ID="{B956FD69-B748-4410-8287-84DA8CC9F851}" WorkUnitID="{170E89B3-0253-45C4-A46B-E86073778489}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Rising" ID="{E7922474-BE64-4319-8D04-6F4A3D5670E8}" WorkUnitID="{170E89B3-0253-45C4-A46B-E86073778489}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Victory" ID="{DA07E212-D811-42AC-A48B-D76758546EE5}" WorkUnitID="{170E89B3-0253-45C4-A46B-E86073778489}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Footstep_Rate" ID="{F8E0D6FA-52B7-40EB-B9A1-AEB6B9FD6B86}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Time" ID="{BB9274CE-1A7C-4293-BD7F-B18D55577696}"/>
+							<Value>120</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Brick_Resonance" ID="{7937864A-4A37-4302-91C2-BDCA0F91C89E}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="CardBoard_HitRate" ID="{7D9FD0C6-7A65-4312-94CC-03BD32C9233F}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Engine_Load" ID="{EB92D28A-BB63-4332-8166-0AC95BAD9EFE}"/>
+							<Value>1</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="PlasticBottle_Resonance" ID="{E172AAC5-5F13-434A-9531-23D24B289F04}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="BrickWall_NumberOfModes" ID="{DCED4C73-CB87-437F-9D20-E107CA2579C3}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Rain_Intensity" ID="{CA0B90AA-8A1F-43AE-ACDD-387803814573}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="GlassShater_NumberOfModes" ID="{EB19E931-7789-4446-9A14-26B43081C38A}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="PlasticBottle_Frequency" ID="{5D551DA7-3353-45E6-9359-31E1AFCD1B6C}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Machinery_MagnitudeVariation" ID="{7FC06381-04EA-461E-808A-2113EED46916}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="BrickWall_Density" ID="{338D8891-73CE-4746-9651-C4E903EF1173}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Wood1_Frequency" ID="{9A76A50C-9251-4774-9643-8F3EFCA6DA7E}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Wine_Quality" ID="{60ED4619-A933-4866-BD22-C8C2D3A90CBE}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="CardBoard_RandomImpactPoint" ID="{8072562F-DBDA-4942-B200-F729E71437C3}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="CardBoard_Rigidity" ID="{78082B23-82DD-4A2F-8FBA-8680E8FBD2DF}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RPM" ID="{63D15B0F-16E7-4B8A-B9CA-7BF10AD315B4}"/>
+							<Value>1000</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="MetalHit2_MagVariation" ID="{8A6EAF73-0375-4BB6-88DA-CA1C4E428EB1}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="MetalHit2_AllObjectProperties" ID="{94DAB77D-9833-4D07-9DBA-BF4329677BFB}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="MetalHit2_Frequency" ID="{D87DAC7E-4B73-4D21-B1E0-C822B08874B3}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="MetalHit2_Resonance" ID="{058B737E-5907-4DF9-A872-263119125D41}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Stealth_Factor" ID="{B784B340-F048-4EA8-BDE8-6F4066F82CD1}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Wood1_Resonance" ID="{0FFE63D5-F971-4ED2-9F8B-11F712AA26C5}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SwordShield_LOD" ID="{621588E7-733D-4F40-B6DD-A2E00296CFB6}"/>
+							<Value>50</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="None" ID="{7936F4AE-7B0A-45F0-87DF-639EB149261E}"/>
+						<CurrentStateRef Name="None" ID="{4BA09D62-D59B-4880-A78C-8BECE7D7899F}"/>
+						<CurrentStateRef Name="None" ID="{F07CBBFD-B2DB-451D-A1C3-58C0A806DED3}"/>
+						<CurrentStateRef Name="None" ID="{7993CD7C-BBA7-4A63-9E5A-4003C1B86F3C}"/>
+						<CurrentStateRef Name="None" ID="{848AD8C5-4D03-4AA7-AD57-B6B61488C15B}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Crouching" ID="{64E633E6-BB40-41C9-A36D-13C35B7CDF83}"/>
+						<CurrentSwitchRef Name="Concrete" ID="{2FF34DCD-36C3-4C47-B787-16404D3E772E}"/>
+						<CurrentSwitchRef Name="Crawl" ID="{685AB217-42C1-43CC-8D6B-84C54B52DB95}"/>
+						<CurrentSwitchRef Name="Concrete" ID="{BC91E14D-8394-4D2A-98A2-B7A963C00954}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5E7787B2-2068-4365-9215-D0AA541958EC}" SchemaVersion="94">
+	<GameParameters>
+		<WorkUnit Name="Ambience" ID="{5E7787B2-2068-4365-9215-D0AA541958EC}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Rain_Intensity" ID="{CA0B90AA-8A1F-43AE-ACDD-387803814573}"/>
+				<GameParameter Name="Time" ID="{BB9274CE-1A7C-4293-BD7F-B18D55577696}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="120"/>
+						<Property Name="Max" Type="Real64" Value="240"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

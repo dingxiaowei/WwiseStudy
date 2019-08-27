@@ -1,0 +1,26 @@
+-----------------------------------------------------------------------------------
+Map title           : "Blutrausch"
+File name        : mak1.cgz
+File size           : 18.609 bytes
+Date                 : 11 Feb 2004
+Creation time   :12 days
+Author              : Markus Bekel 
+Nick                 : makkE
+e-mail              : makk_e@web.de
+
+Build on Cube release 2003_12_23 
+------------------------------------------------------------------------------------
+Install Notes : Extract mak1.zip into /cube/packages/base.
+
+Description:
+A battered ancient stronghold for all your deathmatching needs.
+Playerload       : 4-8 
+Playerspawns : 18
+-------------------------------------------------------------------------------------
+Thanks to Aardappel for his great engine and constructive criticism
+Ikka "Fingers" Keranen, Sock and Than for their great textures,
+and everyone else that was/is contributing to Cube. Also thanks to 
+Goetzenzar for the inspiring architechture in his maps ;)
+--------------------------------------------------------------------------------------
+This map may not be altered without prior permission by the author.
+---------------------------------------------------------------------------------------

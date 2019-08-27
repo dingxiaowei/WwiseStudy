@@ -1,0 +1,40 @@
+Title:         "Wandering"
+Author:        Marc A. Pullen (Fanatic)
+Released:      2003-12-30
+Email:         fanatic@fanaticalproductions.net
+Website:       http://fanaticalproductions.net
+Engine:        cube_2003_12_23.zip
+Other Projects: DOOM Stuff: HacX, QDOOM, EDGE development/support/design, RUINS, ROKS, New Breed, Music for various projects etc.
+                Stronghold: Several levels (see my Website for screenshots and whatnot)
+
+=============
+To Play:
+=============
+
+Unzip this file to where you installed your Cube package into the "packages\base" folder.
+
+Run cube, then in the game press the tilde key (~), and type:
+
+/map fanatic_wandering
+
+=============
+Level Notes:
+=============
+
+The MP3 included is a short orignial song I wrote for this level to set the mood. Nothing fancy.
+
+This is my first level for Cube. It has no monsters or pickups, and no deathmatch starts. This is intended purely as an architectural test to see what the Cube engine could do.
+
+So the level isn't very large or long to run through, but I was able to do a lot of cool stuff with slopes and the water in the engine. I've never done anything with slopes before, so this was quite a freeing feeling to use them so effortlessly.
+
+Some of the scale is off in some areas, the mountains I created feel kinda small, and the player can easily jump anywhere. In future maps, mountains will be made to a much grander scale.
+
+But for a first try, I think it turned out pretty descent.
+
+Kudos to Aardappel for an awesome engine. The editor has a few quirks, but nothing I couldn't work around. Texturing was super easy, and creating complex areas was fairly painless. It only took me an hour or so to get comfortable with editing. This level took me about 3 days of work to complete too.
+
+Use the map or MP3 for anything you want, no copyright or restrictions are imposed.
+
+Enjoy!
+
+    -Fanatic

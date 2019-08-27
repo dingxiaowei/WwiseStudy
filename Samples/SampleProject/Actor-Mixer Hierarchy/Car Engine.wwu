@@ -1,0 +1,1729 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9363D8B7-704B-44A7-B37C-A1AB3AF620DD}" SchemaVersion="94">
+	<AudioObjects>
+		<WorkUnit Name="Car Engine" ID="{9363D8B7-704B-44A7-B37C-A1AB3AF620DD}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Camaro SS - CrankcaseAudio REV" ID="{4CD69CEB-521B-4C27-84DC-FFAED616E091}" ShortID="222040995">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+						<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="PCM" ID="{D469C8FB-1FA9-4C2B-8250-3F8FFBCD1B40}" WorkUnitID="{F187BB3C-C15C-4708-8E6B-2C0F95B6BE78}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Cars" ID="{33329D23-BCDD-4D1A-9734-2403A3428FAE}" WorkUnitID="{A74EEB4A-0805-4AFA-969C-53DCB862B550}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SourcePlugin Name="Chevrolet Camaro SS" ID="{29975930-6548-4A1B-BEE0-7AA549180D4F}" ShortID="938499109" PluginName="CrankcaseAudio REV" CompanyID="261" PluginID="416">
+							<ChildrenList>
+								<PluginMediaSource Name="Chevrolet_Camaro_SS_SampleProject" ID="{CAE4B135-8317-4E3E-8F47-975B9B66EF7A}" ShortID="607201537">
+									<ParentPluginID>27267154</ParentPluginID>
+									<PropertyList>
+										<Property Name="DataFileName" Type="string" Value="Chevrolet_Camaro_SS_SampleProject.model"/>
+									</PropertyList>
+								</PluginMediaSource>
+							</ChildrenList>
+							<Language>SFX</Language>
+							<PluginInnerObjectList>
+								<List Name="AccelDecelModelControlData">
+									<PluginInnerObject Name="" ID="{CE8AB2CE-EA04-4B32-A673-7ED205ECADDC}" PluginName="AccelDecelModelControlData" CompanyID="261" PluginID="418">
+										<PropertyList>
+											<Property Name="AccelVolume_Off" Type="Real32">
+												<ValueList>
+													<Value>0.46</Value>
+												</ValueList>
+											</Property>
+											<Property Name="DecelVolume_Off" Type="Real32">
+												<ValueList>
+													<Value>0.46</Value>
+												</ValueList>
+											</Property>
+											<Property Name="PopDuration" Type="Real32">
+												<ValueList>
+													<Value>0.7</Value>
+												</ValueList>
+											</Property>
+											<Property Name="PopRange" Type="int32">
+												<ValueList>
+													<Value>3</Value>
+												</ValueList>
+											</Property>
+											<Property Name="PopsEngineDuck" Type="Real32">
+												<ValueList>
+													<Value>0.3</Value>
+												</ValueList>
+											</Property>
+											<Property Name="PopsFreqMax" Type="Real32">
+												<ValueList>
+													<Value>0.2</Value>
+												</ValueList>
+											</Property>
+											<Property Name="PopsFreqMin" Type="Real32">
+												<ValueList>
+													<Value>0.01</Value>
+												</ValueList>
+											</Property>
+											<Property Name="PopsVolumeMax" Type="Real32">
+												<ValueList>
+													<Value>1</Value>
+												</ValueList>
+											</Property>
+											<Property Name="PopsVolumeMin" Type="Real32">
+												<ValueList>
+													<Value>1</Value>
+												</ValueList>
+											</Property>
+										</PropertyList>
+									</PluginInnerObject>
+								</List>
+								<List Name="EngineSimulationControlData">
+									<PluginInnerObject Name="" ID="{3A157243-6760-4CF8-B34C-310207907AEC}" PluginName="EngineSimulationControlData" CompanyID="261" PluginID="417">
+										<PropertyList>
+											<Property Name="ClutchRPMMergeTime" Type="Real32" Value="0.3"/>
+											<Property Name="ClutchRPMSpike" Type="Real32" Value="0.66"/>
+											<Property Name="UpShiftAttackThrottleTime" Type="Real32" Value="0.1"/>
+											<Property Name="UpShiftDuration" Type="Real32" Value="0.4"/>
+											<Property Name="UpShiftWobbleDuration" Type="Real32" Value="0.45"/>
+											<Property Name="UpShiftWobblePitchAmp" Type="Real32" Value="0.5"/>
+											<Property Name="UpShiftWobblePitchFreq" Type="Real32" Value="50"/>
+											<Property Name="UpShiftWobbleVolFreq" Type="Real32" Value="10"/>
+										</PropertyList>
+									</PluginInnerObject>
+								</List>
+							</PluginInnerObjectList>
+						</SourcePlugin>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Chevrolet Camaro SS" ID="{29975930-6548-4A1B-BEE0-7AA549180D4F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<BlendContainer Name="Porsche 911 - Blend Container" ID="{97A58685-6231-4227-9BAB-451E089615A8}" ShortID="302218466">
+					<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Tinitus, Inc.
+With the help of the Conservatory of Recording Arts and Sciences.
+© 2007 Tinitus, Inc.
+www.tinitus.net
+
+The Audio Content contained in this file is the property of Tinitus, Inc.  Your sole right with regard to this Audio Content is to listen to the Audio Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.</Comment>
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="PCM" ID="{D469C8FB-1FA9-4C2B-8250-3F8FFBCD1B40}" WorkUnitID="{F187BB3C-C15C-4708-8E6B-2C0F95B6BE78}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Cars" ID="{33329D23-BCDD-4D1A-9734-2403A3428FAE}" WorkUnitID="{A74EEB4A-0805-4AFA-969C-53DCB862B550}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Outside_Idle_1000" ID="{9EEFCC8E-7FC2-4CDC-8BE9-C682F2CA77CC}" ShortID="564536357">
+							<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Tinitus, Inc.
+With the help of the Conservatory of Recording Arts and Sciences.
+© 2007 Tinitus, Inc.
+www.tinitus.net
+
+The Audio Content contained in this file is the property of Tinitus, Inc.  Your sole right with regard to this Audio Content is to listen to the Audio Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.</Comment>
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{A809A571-6012-42BE-A00D-D8E7C89D1248}" ShortID="678638548">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RPM" ID="{63D15B0F-16E7-4B8A-B9CA-7BF10AD315B4}" WorkUnitID="{9655CF65-9490-459C-A79A-CC2552D9CC23}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{5673B178-2489-4F5B-BD36-20085B3DA3E2}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1000</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>1250</XPos>
+														<YPos>386</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>1500</XPos>
+														<YPos>702</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>1750</XPos>
+														<YPos>969</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>2000</XPos>
+														<YPos>1200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>2250</XPos>
+														<YPos>1404</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>2500</XPos>
+														<YPos>1586</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>3000</XPos>
+														<YPos>1902</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>3500</XPos>
+														<YPos>2169</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>4000</XPos>
+														<YPos>2400</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>4500</XPos>
+														<YPos>2604</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>5000</XPos>
+														<YPos>2786</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>6000</XPos>
+														<YPos>3102</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>7000</XPos>
+														<YPos>3369</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>8000</XPos>
+														<YPos>3600</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A74EEB4A-0805-4AFA-969C-53DCB862B550}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Porsche_Outside_Idle_1000_01" ID="{48770A4D-B8C3-41CF-AE3E-FB8651347736}" ShortID="599868146">
+									<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Tinitus, Inc.
+With the help of the Conservatory of Recording Arts and Sciences.
+© 2007 Tinitus, Inc.
+www.tinitus.net
+
+The Audio Content contained in this file is the property of Tinitus, Inc.  Your sole right with regard to this Audio Content is to listen to the Audio Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.</Comment>
+									<Language>SFX</Language>
+									<AudioFile>Car Engine\Porsche_Outside_Idle_1000_01.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="416741917"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Porsche_Outside_Idle_1000_01" ID="{48770A4D-B8C3-41CF-AE3E-FB8651347736}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Outside_Off-Load_2000" ID="{CFAF8A1B-1DF5-4711-80DA-D61A42F859D7}" ShortID="52729750">
+							<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Tinitus, Inc.
+With the help of the Conservatory of Recording Arts and Sciences.
+© 2007 Tinitus, Inc.
+www.tinitus.net
+
+The Audio Content contained in this file is the property of Tinitus, Inc.  Your sole right with regard to this Audio Content is to listen to the Audio Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.</Comment>
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{DE095858-EB78-4CC1-9CE7-883FB2C14D72}" ShortID="13185260">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RPM" ID="{63D15B0F-16E7-4B8A-B9CA-7BF10AD315B4}" WorkUnitID="{9655CF65-9490-459C-A79A-CC2552D9CC23}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{A8E6DFE9-8C23-4C47-AAFE-D63C10C4F3C2}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-1200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1000</XPos>
+														<YPos>-1200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>1077.87603058653</XPos>
+														<YPos>-1078</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>1250</XPos>
+														<YPos>-814</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>1500</XPos>
+														<YPos>-498</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>1750</XPos>
+														<YPos>-231</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>2000</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>2250</XPos>
+														<YPos>204</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>2500</XPos>
+														<YPos>386</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>3000</XPos>
+														<YPos>702</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>3500</XPos>
+														<YPos>969</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>4000</XPos>
+														<YPos>1200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>8000</XPos>
+														<YPos>2400</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A74EEB4A-0805-4AFA-969C-53DCB862B550}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Porsche_Outside_Off-Load_2000_01" ID="{0EA0AE98-4F8A-490C-9099-D138BA95EEC9}" ShortID="560524435">
+									<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Tinitus, Inc.
+With the help of the Conservatory of Recording Arts and Sciences.
+© 2007 Tinitus, Inc.
+www.tinitus.net
+
+The Audio Content contained in this file is the property of Tinitus, Inc.  Your sole right with regard to this Audio Content is to listen to the Audio Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.</Comment>
+									<Language>SFX</Language>
+									<AudioFile>Car Engine\Porsche_Outside_Off-Load_2000_01.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Porsche_Outside_Off-Load_2000_01" ID="{0EA0AE98-4F8A-490C-9099-D138BA95EEC9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Outside_Off-Load_3000" ID="{6FCBD4B7-98D7-4DF9-B290-4B86D5346D3B}" ShortID="559736672">
+							<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Tinitus, Inc.
+With the help of the Conservatory of Recording Arts and Sciences.
+© 2007 Tinitus, Inc.
+www.tinitus.net
+
+The Audio Content contained in this file is the property of Tinitus, Inc.  Your sole right with regard to this Audio Content is to listen to the Audio Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.</Comment>
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{8F89BA94-7A07-4746-84E4-34002BAC9719}" ShortID="381235327">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RPM" ID="{63D15B0F-16E7-4B8A-B9CA-7BF10AD315B4}" WorkUnitID="{9655CF65-9490-459C-A79A-CC2552D9CC23}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{B53717FC-EE37-4D22-B336-A59FF430A3D9}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-4800</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>187.5</XPos>
+														<YPos>-4800</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>1750</XPos>
+														<YPos>-933</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>2000</XPos>
+														<YPos>-702</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>2250</XPos>
+														<YPos>-498</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>2500</XPos>
+														<YPos>-316</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>3000</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>3500</XPos>
+														<YPos>267</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>4000</XPos>
+														<YPos>498</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>4500</XPos>
+														<YPos>702</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>8000</XPos>
+														<YPos>1698</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A74EEB4A-0805-4AFA-969C-53DCB862B550}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Porsche_Outside_Off-Load_3000_01" ID="{69FE9988-D3CA-409C-AD4D-9789111BEE4C}" ShortID="572886156">
+									<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Tinitus, Inc.
+With the help of the Conservatory of Recording Arts and Sciences.
+© 2007 Tinitus, Inc.
+www.tinitus.net
+
+The Audio Content contained in this file is the property of Tinitus, Inc.  Your sole right with regard to this Audio Content is to listen to the Audio Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.</Comment>
+									<Language>SFX</Language>
+									<AudioFile>Car Engine\Porsche_Outside_Off-Load_3000_01.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Porsche_Outside_Off-Load_3000_01" ID="{69FE9988-D3CA-409C-AD4D-9789111BEE4C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Outside_Off-Load_4000" ID="{5262E6BB-DD52-4293-AB97-CE970241E1A8}" ShortID="222010093">
+							<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Tinitus, Inc.
+With the help of the Conservatory of Recording Arts and Sciences.
+© 2007 Tinitus, Inc.
+www.tinitus.net
+
+The Audio Content contained in this file is the property of Tinitus, Inc.  Your sole right with regard to this Audio Content is to listen to the Audio Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.</Comment>
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{7624B718-1F16-42F9-8909-8D484EE0B0CE}" ShortID="965454257">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RPM" ID="{63D15B0F-16E7-4B8A-B9CA-7BF10AD315B4}" WorkUnitID="{9655CF65-9490-459C-A79A-CC2552D9CC23}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{7994B804-BAB4-4AE4-A16D-2506780D30CD}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-4800</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>250</XPos>
+														<YPos>-4800</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>2000</XPos>
+														<YPos>-1200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>2250</XPos>
+														<YPos>-996</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>2500</XPos>
+														<YPos>-814</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>3000</XPos>
+														<YPos>-498</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>3500</XPos>
+														<YPos>-231</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>4000</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>4500</XPos>
+														<YPos>204</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>5000</XPos>
+														<YPos>386</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>6000</XPos>
+														<YPos>702</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>8000</XPos>
+														<YPos>1200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A74EEB4A-0805-4AFA-969C-53DCB862B550}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Porsche_Outside_Off-Load_4000_01" ID="{2299C4BD-916B-4F8E-A76E-074447D77B1F}" ShortID="238982829">
+									<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Tinitus, Inc.
+With the help of the Conservatory of Recording Arts and Sciences.
+© 2007 Tinitus, Inc.
+www.tinitus.net
+
+The Audio Content contained in this file is the property of Tinitus, Inc.  Your sole right with regard to this Audio Content is to listen to the Audio Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.</Comment>
+									<Language>SFX</Language>
+									<AudioFile>Car Engine\Porsche_Outside_Off-Load_4000_01.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Porsche_Outside_Off-Load_4000_01" ID="{2299C4BD-916B-4F8E-A76E-074447D77B1F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Outside_Off-Load_5000" ID="{7A481E83-E4E5-4934-AB88-FA78A4531C82}" ShortID="906815920">
+							<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Tinitus, Inc.
+With the help of the Conservatory of Recording Arts and Sciences.
+© 2007 Tinitus, Inc.
+www.tinitus.net
+
+The Audio Content contained in this file is the property of Tinitus, Inc.  Your sole right with regard to this Audio Content is to listen to the Audio Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.</Comment>
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{F1459C0D-4A0E-404D-8414-596E2A5340CB}" ShortID="638190366">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RPM" ID="{63D15B0F-16E7-4B8A-B9CA-7BF10AD315B4}" WorkUnitID="{9655CF65-9490-459C-A79A-CC2552D9CC23}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{D43135A3-E10E-4B33-94E3-C21715253744}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-4800</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>250</XPos>
+														<YPos>-4800</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>3500</XPos>
+														<YPos>-617</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>4000</XPos>
+														<YPos>-386</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>4500</XPos>
+														<YPos>-182</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>5000</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>6000</XPos>
+														<YPos>316</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>7000</XPos>
+														<YPos>583</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>8000</XPos>
+														<YPos>814</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A74EEB4A-0805-4AFA-969C-53DCB862B550}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Porsche_Outside_Off-Load_5000_01" ID="{88029C5F-DD0A-45CC-AA20-8E171EC182A5}" ShortID="1073252253">
+									<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Tinitus, Inc.
+With the help of the Conservatory of Recording Arts and Sciences.
+© 2007 Tinitus, Inc.
+www.tinitus.net
+
+The Audio Content contained in this file is the property of Tinitus, Inc.  Your sole right with regard to this Audio Content is to listen to the Audio Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.</Comment>
+									<Language>SFX</Language>
+									<AudioFile>Car Engine\Porsche_Outside_Off-Load_5000_01.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Porsche_Outside_Off-Load_5000_01" ID="{88029C5F-DD0A-45CC-AA20-8E171EC182A5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Outside_Off-Load_6000" ID="{E9DFE256-E251-4EA9-993E-29A5AB182408}" ShortID="366943000">
+							<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Tinitus, Inc.
+With the help of the Conservatory of Recording Arts and Sciences.
+© 2007 Tinitus, Inc.
+www.tinitus.net
+
+The Audio Content contained in this file is the property of Tinitus, Inc.  Your sole right with regard to this Audio Content is to listen to the Audio Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.</Comment>
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{A1D6ED6F-9867-40CD-872A-93BEB9DF9168}" ShortID="490916276">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RPM" ID="{63D15B0F-16E7-4B8A-B9CA-7BF10AD315B4}" WorkUnitID="{9655CF65-9490-459C-A79A-CC2552D9CC23}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{996DE823-4611-4634-94D5-CFF198CDB593}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-4800</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>375</XPos>
+														<YPos>-4800</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>4000</XPos>
+														<YPos>-702</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>4500</XPos>
+														<YPos>-498</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>5000</XPos>
+														<YPos>-316</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>6000</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>7000</XPos>
+														<YPos>267</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>8000</XPos>
+														<YPos>498</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A74EEB4A-0805-4AFA-969C-53DCB862B550}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Porsche_Outside_Off-Load_6000_01" ID="{3698C5A0-8B0C-4810-8E94-A048C011640C}" ShortID="637114832">
+									<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Tinitus, Inc.
+With the help of the Conservatory of Recording Arts and Sciences.
+© 2007 Tinitus, Inc.
+www.tinitus.net
+
+The Audio Content contained in this file is the property of Tinitus, Inc.  Your sole right with regard to this Audio Content is to listen to the Audio Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.</Comment>
+									<Language>SFX</Language>
+									<AudioFile>Car Engine\Porsche_Outside_Off-Load_6000_01.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Porsche_Outside_Off-Load_6000_01" ID="{3698C5A0-8B0C-4810-8E94-A048C011640C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Outside_On-Load_2000" ID="{E8D0C983-3C36-49C6-8E85-4D67943B557E}" ShortID="154103840">
+							<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Tinitus, Inc.
+With the help of the Conservatory of Recording Arts and Sciences.
+© 2007 Tinitus, Inc.
+www.tinitus.net
+
+The Audio Content contained in this file is the property of Tinitus, Inc.  Your sole right with regard to this Audio Content is to listen to the Audio Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.</Comment>
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{78D380B9-1896-4189-AABB-64086BCFF101}" ShortID="1048682890">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RPM" ID="{63D15B0F-16E7-4B8A-B9CA-7BF10AD315B4}" WorkUnitID="{9655CF65-9490-459C-A79A-CC2552D9CC23}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{33864071-1D98-4267-B5E8-03FCC5F54148}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-4800</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>125</XPos>
+														<YPos>-4800</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>875</XPos>
+														<YPos>-1431</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>1000</XPos>
+														<YPos>-1200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>1250</XPos>
+														<YPos>-814</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>1500</XPos>
+														<YPos>-498</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>1750</XPos>
+														<YPos>-231</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>2000</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>2250</XPos>
+														<YPos>204</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>2500</XPos>
+														<YPos>386</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>3000</XPos>
+														<YPos>702</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>3500</XPos>
+														<YPos>969</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>8000</XPos>
+														<YPos>2400</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A74EEB4A-0805-4AFA-969C-53DCB862B550}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Porsche_Outside_On-Load_2000_01" ID="{156793CE-230F-484C-BB9E-1291ACAEFC32}" ShortID="847054230">
+									<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Tinitus, Inc.
+With the help of the Conservatory of Recording Arts and Sciences.
+© 2007 Tinitus, Inc.
+www.tinitus.net
+
+The Audio Content contained in this file is the property of Tinitus, Inc.  Your sole right with regard to this Audio Content is to listen to the Audio Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.</Comment>
+									<Language>SFX</Language>
+									<AudioFile>Car Engine\Porsche_Outside_On-Load_2000_01.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Porsche_Outside_On-Load_2000_01" ID="{156793CE-230F-484C-BB9E-1291ACAEFC32}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Outside_On-Load_3000" ID="{F2E2FB6F-530D-4534-AD6E-ABFE27EFE127}" ShortID="418209584">
+							<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Tinitus, Inc.
+With the help of the Conservatory of Recording Arts and Sciences.
+© 2007 Tinitus, Inc.
+www.tinitus.net
+
+The Audio Content contained in this file is the property of Tinitus, Inc.  Your sole right with regard to this Audio Content is to listen to the Audio Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.</Comment>
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{B27B6658-0B6F-4AEC-BF1A-7824EFDFA9A1}" ShortID="525080636">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RPM" ID="{63D15B0F-16E7-4B8A-B9CA-7BF10AD315B4}" WorkUnitID="{9655CF65-9490-459C-A79A-CC2552D9CC23}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{70BA7BAA-6A33-4492-A3C0-7F4A543037B5}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-4800</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1750</XPos>
+														<YPos>-933</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>2000</XPos>
+														<YPos>-702</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>2250</XPos>
+														<YPos>-498</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>2500</XPos>
+														<YPos>-316</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>3000</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>3500</XPos>
+														<YPos>267</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>4000</XPos>
+														<YPos>498</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>4500</XPos>
+														<YPos>702</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>8000</XPos>
+														<YPos>1698</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A74EEB4A-0805-4AFA-969C-53DCB862B550}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Porsche_Outside_On-Load_3000_01" ID="{5ABBFEC7-23D1-4AC9-AFCF-78D071129079}" ShortID="729840772">
+									<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Tinitus, Inc.
+With the help of the Conservatory of Recording Arts and Sciences.
+© 2007 Tinitus, Inc.
+www.tinitus.net
+
+The Audio Content contained in this file is the property of Tinitus, Inc.  Your sole right with regard to this Audio Content is to listen to the Audio Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.</Comment>
+									<Language>SFX</Language>
+									<AudioFile>Car Engine\Porsche_Outside_On-Load_3000_01.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Porsche_Outside_On-Load_3000_01" ID="{5ABBFEC7-23D1-4AC9-AFCF-78D071129079}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Outside_On-Load_4000" ID="{06F83E63-A9FE-492F-A5F8-00243D407F69}" ShortID="209640280">
+							<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Tinitus, Inc.
+With the help of the Conservatory of Recording Arts and Sciences.
+© 2007 Tinitus, Inc.
+www.tinitus.net
+
+The Audio Content contained in this file is the property of Tinitus, Inc.  Your sole right with regard to this Audio Content is to listen to the Audio Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.</Comment>
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{87EFD943-B58D-4C3C-A9F2-F6B8F381A626}" ShortID="940950008">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RPM" ID="{63D15B0F-16E7-4B8A-B9CA-7BF10AD315B4}" WorkUnitID="{9655CF65-9490-459C-A79A-CC2552D9CC23}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{371DEAB9-BD25-45B0-8DC4-399E0D2E374C}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-4800</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>2000</XPos>
+														<YPos>-1200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>2250</XPos>
+														<YPos>-996</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>2500</XPos>
+														<YPos>-814</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>3000</XPos>
+														<YPos>-498</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>3500</XPos>
+														<YPos>-231</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>4000</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>4500</XPos>
+														<YPos>204</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>5000</XPos>
+														<YPos>386</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>6000</XPos>
+														<YPos>702</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>8000</XPos>
+														<YPos>1200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A74EEB4A-0805-4AFA-969C-53DCB862B550}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Porsche_Outside_On-Load_4000_01" ID="{E305736C-E9EA-40CC-8F2C-BD77A1CC96A0}" ShortID="212698584">
+									<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Tinitus, Inc.
+With the help of the Conservatory of Recording Arts and Sciences.
+© 2007 Tinitus, Inc.
+www.tinitus.net
+
+The Audio Content contained in this file is the property of Tinitus, Inc.  Your sole right with regard to this Audio Content is to listen to the Audio Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.</Comment>
+									<Language>SFX</Language>
+									<AudioFile>Car Engine\Porsche_Outside_On-Load_4000_01.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Porsche_Outside_On-Load_4000_01" ID="{E305736C-E9EA-40CC-8F2C-BD77A1CC96A0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Outside_On-Load_5000" ID="{414366C1-F6E6-4173-B995-068DB4C232C8}" ShortID="381760821">
+							<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Tinitus, Inc.
+With the help of the Conservatory of Recording Arts and Sciences.
+© 2007 Tinitus, Inc.
+www.tinitus.net
+
+The Audio Content contained in this file is the property of Tinitus, Inc.  Your sole right with regard to this Audio Content is to listen to the Audio Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.</Comment>
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{C8EB7E49-355F-4775-B9D5-E46E436A587D}" ShortID="983118710">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RPM" ID="{63D15B0F-16E7-4B8A-B9CA-7BF10AD315B4}" WorkUnitID="{9655CF65-9490-459C-A79A-CC2552D9CC23}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{C7BCCECD-22CE-4338-A7DA-889CB8CAD440}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-4800</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>3000</XPos>
+														<YPos>-884</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>3500</XPos>
+														<YPos>-617</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>4000</XPos>
+														<YPos>-386</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>4500</XPos>
+														<YPos>-182</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>5000</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>6000</XPos>
+														<YPos>316</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>7000</XPos>
+														<YPos>583</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>8000</XPos>
+														<YPos>814</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A74EEB4A-0805-4AFA-969C-53DCB862B550}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Porsche_Outside_On-Load_5000_01" ID="{321AF190-DC6E-4100-8DEE-A9D331F82003}" ShortID="707218239">
+									<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Tinitus, Inc.
+With the help of the Conservatory of Recording Arts and Sciences.
+© 2007 Tinitus, Inc.
+www.tinitus.net
+
+The Audio Content contained in this file is the property of Tinitus, Inc.  Your sole right with regard to this Audio Content is to listen to the Audio Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.</Comment>
+									<Language>SFX</Language>
+									<AudioFile>Car Engine\Porsche_Outside_On-Load_5000_01.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Porsche_Outside_On-Load_5000_01" ID="{321AF190-DC6E-4100-8DEE-A9D331F82003}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Outside_On-Load_6000" ID="{5715E44F-56A3-41C1-A150-2FDC5C05D167}" ShortID="578733704">
+							<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Tinitus, Inc.
+With the help of the Conservatory of Recording Arts and Sciences.
+© 2007 Tinitus, Inc.
+www.tinitus.net
+
+The Audio Content contained in this file is the property of Tinitus, Inc.  Your sole right with regard to this Audio Content is to listen to the Audio Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.</Comment>
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{83ECED84-E95F-4F36-81F2-2D10C977F8C2}" ShortID="314694751">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RPM" ID="{63D15B0F-16E7-4B8A-B9CA-7BF10AD315B4}" WorkUnitID="{9655CF65-9490-459C-A79A-CC2552D9CC23}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{009D32D2-4CA1-4A6E-918A-117666AB7D49}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-4800</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>4000</XPos>
+														<YPos>-702</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>4500</XPos>
+														<YPos>-498</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>5000</XPos>
+														<YPos>-316</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>6000</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>7000</XPos>
+														<YPos>267</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>8000</XPos>
+														<YPos>498</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A74EEB4A-0805-4AFA-969C-53DCB862B550}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Porsche_Outside_On-Load_6000_01" ID="{7F877A37-B1E6-4EAD-8FAF-045284A33278}" ShortID="271916106">
+									<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Tinitus, Inc.
+With the help of the Conservatory of Recording Arts and Sciences.
+© 2007 Tinitus, Inc.
+www.tinitus.net
+
+The Audio Content contained in this file is the property of Tinitus, Inc.  Your sole right with regard to this Audio Content is to listen to the Audio Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.</Comment>
+									<Language>SFX</Language>
+									<AudioFile>Car Engine\Porsche_Outside_On-Load_6000_01.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Porsche_Outside_On-Load_6000_01" ID="{7F877A37-B1E6-4EAD-8FAF-045284A33278}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Outside_IdleOff-Load_1000" ID="{EF877C4F-9A01-4DCD-8B09-3BE270B47823}" ShortID="205304775">
+							<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Tinitus, Inc.
+With the help of the Conservatory of Recording Arts and Sciences.
+© 2007 Tinitus, Inc.
+www.tinitus.net
+
+The Audio Content contained in this file is the property of Tinitus, Inc.  Your sole right with regard to this Audio Content is to listen to the Audio Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.</Comment>
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{E243DB8E-F1CE-4711-907A-B1539060887D}" ShortID="248720969">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RPM" ID="{63D15B0F-16E7-4B8A-B9CA-7BF10AD315B4}" WorkUnitID="{9655CF65-9490-459C-A79A-CC2552D9CC23}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{813EA928-36F9-47C3-B3AB-513B71C16876}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1000</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>1250</XPos>
+														<YPos>386</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>1500</XPos>
+														<YPos>702</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>1750</XPos>
+														<YPos>969</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>2000</XPos>
+														<YPos>1200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>2250</XPos>
+														<YPos>1404</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>2500</XPos>
+														<YPos>1586</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>3000</XPos>
+														<YPos>1902</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>3500</XPos>
+														<YPos>2169</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>4000</XPos>
+														<YPos>2400</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>4500</XPos>
+														<YPos>2604</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>5000</XPos>
+														<YPos>2786</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>6000</XPos>
+														<YPos>3102</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>7000</XPos>
+														<YPos>3369</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>8000</XPos>
+														<YPos>3600</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A74EEB4A-0805-4AFA-969C-53DCB862B550}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Porsche_Outside_Idle_1000_01" ID="{6ACB265D-5F46-4A0F-A567-D6A11443C1D7}" ShortID="416741917">
+									<Comment>Audiokinetic Inc. All rights reserved.
+Audio content provided by Tinitus, Inc.
+With the help of the Conservatory of Recording Arts and Sciences.
+© 2007 Tinitus, Inc.
+www.tinitus.net
+
+The Audio Content contained in this file is the property of Tinitus, Inc.  Your sole right with regard to this Audio Content is to listen to the Audio Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.</Comment>
+									<Language>SFX</Language>
+									<AudioFile>Car Engine\Porsche_Outside_Idle_1000_01.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Porsche_Outside_Idle_1000_01" ID="{6ACB265D-5F46-4A0F-A567-D6A11443C1D7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{7A6253DD-8E83-42A4-9211-DA34D5541073}"/>
+					</PositioningInfo>
+					<BlendTrackList>
+						<BlendTrack Name="On-Load" ID="{8D76C40F-1C73-42C7-9A26-8C0E56E6898F}" ShortID="595244506">
+							<PropertyList>
+								<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{5D5D9C5B-5080-4F63-8EB0-7F452D6B8FA7}" ShortID="973351707">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Engine_Load" ID="{EB92D28A-BB63-4332-8166-0AC95BAD9EFE}" WorkUnitID="{9655CF65-9490-459C-A79A-CC2552D9CC23}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{4B1817F9-D061-424B-802A-747031B8DA16}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-1</XPos>
+														<YPos>-96.3</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>-3.00000235494884E-02</XPos>
+														<YPos>-96.3</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>SCurve</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>2.00000307167236E-02</XPos>
+														<YPos>5.25082869184956E-07</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="LayerCrossFadeControlInput">
+									<ObjectRef Name="RPM" ID="{63D15B0F-16E7-4B8A-B9CA-7BF10AD315B4}" WorkUnitID="{9655CF65-9490-459C-A79A-CC2552D9CC23}"/>
+								</Reference>
+							</ReferenceList>
+							<BlendTrackAssocList>
+								<BlendTrackAssoc>
+									<ItemRef Name="Outside_Idle_1000" ID="{9EEFCC8E-7FC2-4CDC-8BE9-C682F2CA77CC}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>0</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<RightEdgePos>1883.50959985393</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+										<RightFadingSegmentShape>Exp2</RightFadingSegmentShape>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+								<BlendTrackAssoc>
+									<ItemRef Name="Outside_On-Load_2000" ID="{E8D0C983-3C36-49C6-8E85-4D67943B557E}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>1002.40067874445</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<LeftFadingSegmentShape>Log2</LeftFadingSegmentShape>
+										<RightEdgePos>3041.33485020857</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+										<RightFadingSegmentShape>Exp2</RightFadingSegmentShape>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+								<BlendTrackAssoc>
+									<ItemRef Name="Outside_On-Load_3000" ID="{F2E2FB6F-530D-4534-AD6E-ABFE27EFE127}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>2070.02907344203</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<LeftFadingSegmentShape>Log2</LeftFadingSegmentShape>
+										<RightEdgePos>3907.75151336396</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+										<RightFadingSegmentShape>Exp2</RightFadingSegmentShape>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+								<BlendTrackAssoc>
+									<ItemRef Name="Outside_On-Load_4000" ID="{06F83E63-A9FE-492F-A5F8-00243D407F69}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>3280.10224862709</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<LeftFadingSegmentShape>Log1</LeftFadingSegmentShape>
+										<RightEdgePos>5105.85822834592</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+										<RightFadingSegmentShape>Exp1</RightFadingSegmentShape>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+								<BlendTrackAssoc>
+									<ItemRef Name="Outside_On-Load_5000" ID="{414366C1-F6E6-4173-B995-068DB4C232C8}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>4262.08233261703</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<LeftFadingSegmentShape>Log2</LeftFadingSegmentShape>
+										<RightEdgePos>5954.24093035014</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+										<RightFadingSegmentShape>Exp2</RightFadingSegmentShape>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+								<BlendTrackAssoc>
+									<ItemRef Name="Outside_On-Load_6000" ID="{5715E44F-56A3-41C1-A150-2FDC5C05D167}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>5239.62415202461</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<LeftFadingSegmentShape>Log1</LeftFadingSegmentShape>
+										<RightEdgePos>8000</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+							</BlendTrackAssocList>
+						</BlendTrack>
+						<BlendTrack Name="Off-Load" ID="{8650F5F9-E62B-4394-8729-1FF0C63A0681}" ShortID="305226984">
+							<PropertyList>
+								<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{CCC0AE11-8A6F-4C3E-86B6-61B130816FA4}" ShortID="84873687">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Engine_Load" ID="{EB92D28A-BB63-4332-8166-0AC95BAD9EFE}" WorkUnitID="{9655CF65-9490-459C-A79A-CC2552D9CC23}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{6A08E8A6-DC0C-466E-AC07-CEC0859D38E8}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-1</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>-1.99999999999999E-02</XPos>
+														<YPos>-1.53954284864977E-06</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>SCurve</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>2.99999542662113E-02</XPos>
+														<YPos>-96.2999962857966</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>-96.3</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="LayerCrossFadeControlInput">
+									<ObjectRef Name="RPM" ID="{63D15B0F-16E7-4B8A-B9CA-7BF10AD315B4}" WorkUnitID="{9655CF65-9490-459C-A79A-CC2552D9CC23}"/>
+								</Reference>
+							</ReferenceList>
+							<BlendTrackAssocList>
+								<BlendTrackAssoc>
+									<ItemRef Name="Outside_IdleOff-Load_1000" ID="{EF877C4F-9A01-4DCD-8B09-3BE270B47823}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>0</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<RightEdgePos>1821.8771331058</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+										<RightFadingSegmentShape>Exp3</RightFadingSegmentShape>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+								<BlendTrackAssoc>
+									<ItemRef Name="Outside_Off-Load_2000" ID="{CFAF8A1B-1DF5-4711-80DA-D61A42F859D7}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>1014.35722411832</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<LeftFadingSegmentShape>Log2</LeftFadingSegmentShape>
+										<RightEdgePos>2904.51270383011</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+										<RightFadingSegmentShape>Exp2</RightFadingSegmentShape>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+								<BlendTrackAssoc>
+									<ItemRef Name="Outside_Off-Load_3000" ID="{6FCBD4B7-98D7-4DF9-B290-4B86D5346D3B}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>2082.36632536974</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<LeftFadingSegmentShape>Log1</LeftFadingSegmentShape>
+										<RightEdgePos>4054.00075843762</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+										<RightFadingSegmentShape>Exp1</RightFadingSegmentShape>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+								<BlendTrackAssoc>
+									<ItemRef Name="Outside_Off-Load_4000" ID="{5262E6BB-DD52-4293-AB97-CE970241E1A8}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>3178.76374668184</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<LeftFadingSegmentShape>Log1</LeftFadingSegmentShape>
+										<RightEdgePos>5059.38566552901</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+										<RightFadingSegmentShape>Exp1</RightFadingSegmentShape>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+								<BlendTrackAssoc>
+									<ItemRef Name="Outside_Off-Load_5000" ID="{7A481E83-E4E5-4934-AB88-FA78A4531C82}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>4144.70989761092</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<LeftFadingSegmentShape>Log2</LeftFadingSegmentShape>
+										<RightEdgePos>6037.46681835419</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+										<RightFadingSegmentShape>Exp2</RightFadingSegmentShape>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+								<BlendTrackAssoc>
+									<ItemRef Name="Outside_Off-Load_6000" ID="{E9DFE256-E251-4EA9-993E-29A5AB182408}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>5410.99734546833</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<LeftFadingSegmentShape>Log2</LeftFadingSegmentShape>
+										<RightEdgePos>8000</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+							</BlendTrackAssocList>
+						</BlendTrack>
+					</BlendTrackList>
+				</BlendContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

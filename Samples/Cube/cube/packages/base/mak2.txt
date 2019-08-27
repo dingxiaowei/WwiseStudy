@@ -1,0 +1,23 @@
+Map name       : "Arschbombe"
+File name        : mak2.cgz
+Date                 : 19 mar 2004
+Author              : Markus Bekel 
+Nick                 : makkE
+e-mail              : makk_e@web.de
+
+Gamemode     : ffa/instagib 
+Playerload       : 2-4 as a max... best on ffa 1on1
+Playerspawns :10
+Build on Cube release 2003_12_23
+
+Note: This version fixes a construction error, that caused the player to sometimes not make the jump out of the yellowarmour-room, especially on high fps.
+
+Description 
+A small/mid sized base style map. Lots of jumppads. No Quad. 
+
+Thanx to: Ardappel and everyone else involved/contributing to Cube.
+                cubed.de and lokirules from ESL
+Special thanx to Stanze and  for beta testing and suggestions.
+
+You may distibute this map freely on any media as long as you don´t make a profit  and include this text file. You may use this level as a base for additional levels when given my permission.
+ 

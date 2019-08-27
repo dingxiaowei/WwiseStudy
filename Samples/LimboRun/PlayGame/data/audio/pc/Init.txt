@@ -1,0 +1,426 @@
+Switch Group	ID	Name			Wwise Object Path	Notes
+	753188703	spider_rollingStone			\Default Work Unit\physics\oldButStillInUse\spider\spider_rollingStone	
+	916960538	boy_pull_step			\Default Work Unit\boy\boy_foley\boy_pull_step	
+	942289657	impact_box_water			\Default Work Unit\physics\oldButStillInUse\impact_box_water	
+	994759501	boy_push_step			\Default Work Unit\boy\boy_foley\boy_push_step	
+	1285033685	boy_drywet			\Default Work Unit\boy\boy_foley\boy_drywet	
+	1346166450	boy_water_impact			\Default Work Unit\boy\boy_foley\boy_water_impact	
+	1380103253	RTPC_IMPACT_max10			\Default Work Unit\physics\RTPC_IMPACT_max10	
+	1493946898	boy_step_speed			\Default Work Unit\boy\boy_foley\boy_step_speed	
+	1557794080	RTPC_IMPACT_max6			\Default Work Unit\physics\RTPC_IMPACT_max6	
+	1557794081	RTPC_IMPACT_max7			\Default Work Unit\physics\RTPC_IMPACT_max7	
+	1557794082	RTPC_IMPACT_max4			\Default Work Unit\physics\RTPC_IMPACT_max4	
+	1557794083	RTPC_IMPACT_max5			\Default Work Unit\physics\RTPC_IMPACT_max5	
+	1557794084	RTPC_IMPACT_max2			\Default Work Unit\physics\RTPC_IMPACT_max2	
+	1557794085	RTPC_IMPACT_max3			\Default Work Unit\physics\RTPC_IMPACT_max3	
+	2577884896	RTPC_IMPACT_SPEED_max2			\Default Work Unit\physics\RTPC_IMPACT_SPEED_max2	
+	2577884897	RTPC_IMPACT_SPEED_max3			\Default Work Unit\physics\RTPC_IMPACT_SPEED_max3	
+	2792726040	boy_breathing_velocity			\Default Work Unit\boy\vocal\boy_breathing_velocity	
+	3103897467	RTPC_IMPACT_max1_5			\Default Work Unit\physics\RTPC_IMPACT_max1_5	
+	3116635383	RTPC_IMPACT_DEFAULT			\Default Work Unit\physics\oldButStillInUse\RTPC_IMPACT_DEFAULT	
+	3631056698	RTPC_VELOCITY_max10			\Default Work Unit\physics\RTPC_VELOCITY_max10	
+	4069312259	boy_strain			\Default Work Unit\boy\vocal\boy_strain	
+	4164156981	impact_box_blend			\Default Work Unit\physics\oldButStillInUse\impact_box_blend	
+
+Switch	ID	Name	Switch Group			Notes
+	84696431	p	spider_rollingStone			
+	84696441	f	spider_rollingStone			
+	1685527046	mp	spider_rollingStone			
+	1685527056	mf	spider_rollingStone			
+	184324599	pull_run_step	boy_pull_step			
+	493344677	pull_walk_step	boy_pull_step			
+	3215005850	pull_jog_step	boy_pull_step			
+	545371365	low	impact_box_water			
+	1182670505	mid	impact_box_water			
+	3550808449	high	impact_box_water			
+	1097908992	push_run_step	boy_push_step			
+	2722974428	push_walk_step	boy_push_step			
+	2726644301	push_jog_step	boy_push_step			
+	630539344	dry	boy_drywet			
+	1181096339	wet	boy_drywet			
+	84696441	f	boy_water_impact			
+	1685527046	mp	boy_water_impact			
+	1685527056	mf	boy_water_impact			
+	84696431	p	RTPC_IMPACT_max10			
+	84696441	f	RTPC_IMPACT_max10			
+	1685527046	mp	RTPC_IMPACT_max10			
+	1685527056	mf	RTPC_IMPACT_max10			
+	3075462689	tiptoe_step	boy_step_speed			
+	3385329909	run_step	boy_step_speed			
+	3479586975	walk_step	boy_step_speed			
+	3543786484	jog_step	boy_step_speed			
+	84696431	p	RTPC_IMPACT_max6			
+	84696441	f	RTPC_IMPACT_max6			
+	1685527046	mp	RTPC_IMPACT_max6			
+	1685527056	mf	RTPC_IMPACT_max6			
+	84696431	p	RTPC_IMPACT_max7			
+	84696441	f	RTPC_IMPACT_max7			
+	1685527046	mp	RTPC_IMPACT_max7			
+	1685527056	mf	RTPC_IMPACT_max7			
+	84696431	p	RTPC_IMPACT_max4			
+	84696441	f	RTPC_IMPACT_max4			
+	1685527046	mp	RTPC_IMPACT_max4			
+	1685527056	mf	RTPC_IMPACT_max4			
+	84696431	p	RTPC_IMPACT_max5			
+	84696441	f	RTPC_IMPACT_max5			
+	1685527046	mp	RTPC_IMPACT_max5			
+	1685527056	mf	RTPC_IMPACT_max5			
+	84696431	p	RTPC_IMPACT_max2			
+	84696441	f	RTPC_IMPACT_max2			
+	1685527046	mp	RTPC_IMPACT_max2			
+	1685527056	mf	RTPC_IMPACT_max2			
+	84696431	p	RTPC_IMPACT_max3			
+	84696441	f	RTPC_IMPACT_max3			
+	1685527046	mp	RTPC_IMPACT_max3			
+	1685527056	mf	RTPC_IMPACT_max3			
+	84696431	p	RTPC_IMPACT_SPEED_max2			
+	84696441	f	RTPC_IMPACT_SPEED_max2			
+	1685527046	mp	RTPC_IMPACT_SPEED_max2			
+	1685527056	mf	RTPC_IMPACT_SPEED_max2			
+	84696431	p	RTPC_IMPACT_SPEED_max3			
+	84696441	f	RTPC_IMPACT_SPEED_max3			
+	1685527046	mp	RTPC_IMPACT_SPEED_max3			
+	1685527056	mf	RTPC_IMPACT_SPEED_max3			
+	264199161	breath_on	boy_breathing_velocity			
+	3141385221	breath_off	boy_breathing_velocity			
+	84696431	p	RTPC_IMPACT_max1_5			
+	84696441	f	RTPC_IMPACT_max1_5			
+	1685527046	mp	RTPC_IMPACT_max1_5			
+	1685527056	mf	RTPC_IMPACT_max1_5			
+	84696431	p	RTPC_IMPACT_DEFAULT			
+	84696441	f	RTPC_IMPACT_DEFAULT			
+	1685527046	mp	RTPC_IMPACT_DEFAULT			
+	1685527056	mf	RTPC_IMPACT_DEFAULT			
+	84696431	p	RTPC_VELOCITY_max10			
+	84696441	f	RTPC_VELOCITY_max10			
+	1685527046	mp	RTPC_VELOCITY_max10			
+	1685527056	mf	RTPC_VELOCITY_max10			
+	930712164	off	boy_strain			
+	1651971902	on	boy_strain			
+	545371365	low	impact_box_blend			
+	1182670505	mid	impact_box_blend			
+	3550808449	high	impact_box_blend			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	76415915	boy_amb_level			\Default Work Unit\boy\boy_amb_level	
+	85412153	AMBIENCE			\Default Work Unit\amb_sws\AMBIENCE	
+	436055935	amb_sws_water			\Default Work Unit\amb_sws\amb_sws_water	
+	875063271	amb_sws_darkness			\Default Work Unit\amb_sws\amb_sws_darkness	
+	1037834565	amb_sws_fort			\Default Work Unit\amb_sws\amb_sws_fort	
+	1062276085	boy_ragdoll			\Default Work Unit\boy\boy_ragdoll	
+	1227356799	movie			\Default Work Unit\menu\movie	
+	1536122775	boy_ropestate			\Default Work Unit\boy\boy_ropestate	
+	1724630264	zombieSewerMusic			\Default Work Unit\zombieSewerMusic	
+	1755117202	zombieState			\Default Work Unit\zombieState	
+	2113453391	amb_sws_modern			\Default Work Unit\amb_sws\amb_sws_modern	
+	2213237662	underWater			\Default Work Unit\underWater	
+	2231179806	amb_sws_start			\Default Work Unit\amb_sws\amb_sws_start	
+	2309974969	amb_sws_spider			\Default Work Unit\amb_sws\amb_sws_spider	
+	2363900453	amb_sws_old			\Default Work Unit\amb_sws\amb_sws_old	
+	2607556080	menu			\Default Work Unit\menu\menu	
+	3132925526	reverb_sta			\Default Work Unit\reverb_sta	
+	3253655005	boyDeath			\Default Work Unit\boy\boyDeath	
+	3427333805	test_sws			\Default Work Unit\test_sws	
+	3597683229	amb_sws_underground			\Default Work Unit\amb_sws\amb_sws_underground	
+	3692879578	gunObstructed			\Default Work Unit\gunObstructed	
+	4195523127	amb_sws_city			\Default Work Unit\amb_sws\amb_sws_city	
+
+State	ID	Name	State Group			Notes
+	0	None	boy_amb_level			
+	1671623028	minus96dB	boy_amb_level			
+	1695237792	minus3dB	boy_amb_level			
+	1920163846	default0dB	boy_amb_level			
+	1929580133	minus6dB	boy_amb_level			
+	0	None	AMBIENCE			
+	436055935	amb_sws_water	AMBIENCE			
+	875063271	amb_sws_darkness	AMBIENCE			
+	1037834565	amb_sws_fort	AMBIENCE			
+	2113453391	amb_sws_modern	AMBIENCE			
+	2231179806	amb_sws_start	AMBIENCE			
+	2309974969	amb_sws_spider	AMBIENCE			
+	2363900453	amb_sws_old	AMBIENCE			
+	3566402119	amb_sws_menu	AMBIENCE			
+	3597683229	amb_sws_underground	AMBIENCE			
+	4195523127	amb_sws_city	AMBIENCE			
+	0	None	amb_sws_water			
+	118779597	amb_sws_water_sewer_silenceBefore	amb_sws_water			
+	232719093	amb_sws_water_heights_exit	amb_sws_water			
+	366989882	amb_sws_water_zombieIntro_doorDownLastTime	amb_sws_water			
+	374073433	amb_sws_water_sewer_enterScene	amb_sws_water			
+	464045870	amb_sws_water_zombieSewer_waterFlooding	amb_sws_water			
+	697329342	amb_sws_water_sewer_section2	amb_sws_water			
+	739851374	amb_sws_water_heights	amb_sws_water			
+	875818887	amb_sws_water_zombieSewer_enterScene	amb_sws_water			
+	1337724145	amb_sws_water_rain_raining_zoomout2	amb_sws_water			
+	1337724146	amb_sws_water_rain_raining_zoomout1	amb_sws_water			
+	1418426004	amb_sws_water_zombieSewer_waterStill	amb_sws_water			
+	1434643992	amb_sws_water_rain_preRain	amb_sws_water			
+	2899911656	amb_sws_water_sewer_waterBlocked	amb_sws_water			
+	3027400632	amb_sws_water_sewer_section2postFlood	amb_sws_water			
+	3628891411	amb_sws_water_rain_raining	amb_sws_water			
+	3731781319	amb_sws_water_rain_boyEnterSewer	amb_sws_water			
+	4150553087	amb_sws_water_zombieSewer_transToCity	amb_sws_water			
+	0	None	amb_sws_darkness			
+	50107580	amb_sws_darkness_zombie	amb_sws_darkness			
+	408897568	amb_sws_darkness_sparks	amb_sws_darkness			
+	465941814	amb_sws_darkness_needsAchivements	amb_sws_darkness			
+	677512228	amb_sws_darkness_guns_startRotation	amb_sws_darkness			
+	823943573	amb_sws_darkness_guns_smashEgg	amb_sws_darkness			
+	864036124	amb_sws_darkness_guns_stopRotation	amb_sws_darkness			
+	2468713379	amb_sws_darkness_hangToLive	amb_sws_darkness			
+	3056682601	amb_sws_darkness_sawJump	amb_sws_darkness			
+	3228241335	amb_sws_darkness_guns_startRotationPre	amb_sws_darkness			
+	3429873268	amb_sws_darkness_gun	amb_sws_darkness			
+	3502890132	amb_sws_darkness_hasAllAchivements	amb_sws_darkness			
+	3603790520	amb_sws_darkness_sawInDark	amb_sws_darkness			
+	3723878011	amb_sws_darkness_sawJump_spark	amb_sws_darkness			
+	4219782448	amb_sws_darkness_stones	amb_sws_darkness			
+	0	None	amb_sws_fort			
+	184620288	amb_sws_fort_body_fightSpider	amb_sws_fort			
+	359194876	amb_sws_fort_jump_trap2	amb_sws_fort			
+	359194877	amb_sws_fort_jump_trap3	amb_sws_fort			
+	359194879	amb_sws_fort_jump_trap1	amb_sws_fort			
+	1529233990	amb_sws_fort_chase_wood	amb_sws_fort			
+	2035729197	amb_sws_fort_body_enterScene	amb_sws_fort			
+	2184590288	amb_sws_fort_chase_spiderAppears	amb_sws_fort			
+	2541587895	amb_sws_fort_jump_open	amb_sws_fort			
+	3551640232	amb_sws_fort_hanging_enterCave	amb_sws_fort			
+	3803201694	amb_sws_fort_body_finalLegOff	amb_sws_fort			
+	4292936768	amb_sws_fort_crossing	amb_sws_fort			
+	0	None	boy_ragdoll			
+	930712164	off	boy_ragdoll			
+	1651971902	on	boy_ragdoll			
+	0	None	movie			
+	930712164	off	movie			
+	1651971902	on	movie			
+	0	None	boy_ropestate			
+	788884573	stop	boy_ropestate			
+	1281810935	start	boy_ropestate			
+	0	None	zombieSewerMusic			
+	1160234136	normal	zombieSewerMusic			
+	1651971902	on	zombieSewerMusic			
+	0	None	zombieState			
+	181721755	zombieSewer	zombieState			
+	518528820	oldSchool	zombieState			
+	1160234136	normal	zombieState			
+	2754468043	zombieIntro	zombieState			
+	3888786832	city	zombieState			
+	0	None	amb_sws_modern			
+	238252533	amb_sws_modern_gravityZone_exit	amb_sws_modern			
+	370223430	amb_sws_modern_box_enterScene	amb_sws_modern			
+	419366851	amb_sws_modern_box_changeUp	amb_sws_modern			
+	502853673	amb_sws_modern_jump_gravityButton2Pressed	amb_sws_modern			
+	542771755	amb_sws_modern_lasersShooting_postLaser	amb_sws_modern			
+	603975401	amb_sws_modern_cable	amb_sws_modern			
+	821700707	amb_sws_modern_lasersShooting_laserAction	amb_sws_modern			
+	1083047481	amb_sws_modern_crusher_exit	amb_sws_modern			
+	1409382791	amb_sws_modern_theEnd_girlMoves	amb_sws_modern			
+	1560131218	amb_sws_modern_magnetGravity	amb_sws_modern			
+	2286724987	amb_sws_modern_jump_lightFadeIn_surogate	amb_sws_modern			
+	2718704240	amb_sws_modern_hotel	amb_sws_modern			
+	2743767220	amb_sws_modern_jump_gravityButton1Pressed	amb_sws_modern			
+	2744423768	amb_sws_modern_jump_lightFadeIn	amb_sws_modern			
+	2777452290	amb_sws_modern_open	amb_sws_modern			
+	2790725984	amb_sws_modern_hotel_sawSurvive	amb_sws_modern			
+	2917922386	amb_sws_modern_crusher	amb_sws_modern			
+	2920232078	amb_sws_modern_box_changeDownSurvive	amb_sws_modern			
+	3107109596	amb_sws_modern_jump_blockHitFirstTime	amb_sws_modern			
+	3361374136	amb_sws_modern_cable_air	amb_sws_modern			
+	3409650030	amb_sws_modern_gravityZone	amb_sws_modern			
+	3480727046	amb_sws_modern_theEnd_blackout	amb_sws_modern			
+	3653059302	amb_sws_modern_hotel_saw	amb_sws_modern			
+	4052467504	amb_sws_modern_jump_boySurvive3	amb_sws_modern			
+	4052467505	amb_sws_modern_jump_boySurvive2	amb_sws_modern			
+	4052467506	amb_sws_modern_jump_boySurvive1	amb_sws_modern			
+	4052467511	amb_sws_modern_jump_boySurvive4	amb_sws_modern			
+	4079459986	amb_sws_modern_elevator_gravityBox	amb_sws_modern			
+	0	None	underWater			
+	2213237662	underWater	underWater			
+	4026188129	aboveWater	underWater			
+	0	None	amb_sws_start			
+	864197548	amb_sws_start_treeclimb_wood	amb_sws_start			
+	1182065222	amb_sws_start_falling_cave	amb_sws_start			
+	1840047986	amb_sws_start_falling_landing	amb_sws_start			
+	1908556720	amb_sws_start_falling_boatexitwater	amb_sws_start			
+	3419560575	amb_sws_start_falling_eyesopen	amb_sws_start			
+	3498195102	amb_sws_start_falling_falling	amb_sws_start			
+	3708933846	amb_sws_start_falling_enterwood	amb_sws_start			
+	3783247483	amb_sws_start_falling_enterboat	amb_sws_start			
+	0	None	amb_sws_spider			
+	278541710	amb_sws_spider_cocoon_open	amb_sws_spider			
+	451376697	amb_sws_spider_sitting_thirdlegoff	amb_sws_spider			
+	748013201	amb_sws_spider_cocoon_coocoonOff	amb_sws_spider			
+	1162478240	amb_sws_spider_spiderCave_caveexit	amb_sws_spider			
+	1590721392	amb_sws_spider_spiderCave_cave	amb_sws_spider			
+	1645542730	amb_sws_spider_cocoon_bigslowstone	amb_sws_spider			
+	1649251104	amb_sws_spider_spiderCave_spiderExit	amb_sws_spider			
+	1838666423	amb_sws_spider_sitting_unfold	amb_sws_spider			
+	1975202738	amb_sws_spider_spiderCave_spiderEnter	amb_sws_spider			
+	0	None	amb_sws_old			
+	209307480	amb_sws_old_rotatingIntro_prelude	amb_sws_old			
+	390616949	amb_sws_old_rotatingDark_roomFinishedRotate	amb_sws_old			
+	495030951	amb_sws_old_comveyer_zombieSnailOn	amb_sws_old			
+	525449149	amb_sws_old_rotatingSaw_roomRotatingStart	amb_sws_old			
+	712536789	amb_sws_old_rotatingIntro_rotate1stop	amb_sws_old			
+	769867339	amb_sws_old_rotatingDark_enter	amb_sws_old			
+	1086348454	amb_sws_old_rotatingIntro_rotate2stop	amb_sws_old			
+	1259939557	amb_sws_old_rotatingIntro_magnet1offFinal	amb_sws_old			
+	1563614752	amb_sws_old_twoblades_corridor	amb_sws_old			
+	1769098743	amb_sws_old_cogwheelANDladderWagon	amb_sws_old			
+	1827543468	amb_sws_old_balance	amb_sws_old			
+	2457668872	amb_sws_old_wagonAction1_enterScene	amb_sws_old			
+	2464902758	amb_sws_old_rotatingIntro_rotate2start	amb_sws_old			
+	2799250095	amb_sws_old_rotatingDark_roomStartRotate	amb_sws_old			
+	2891860964	amb_sws_old_tire_cogWheelStartTurning	amb_sws_old			
+	3131134543	amb_sws_old_rotatingIntro_rotate1start	amb_sws_old			
+	3203733226	amb_sws_old_rotatingIntro_rotate2rope	amb_sws_old			
+	0	None	menu			
+	984691642	inGame	menu			
+	2607556080	menu	menu			
+	0	None	reverb_sta			
+	2193711024	rev0	reverb_sta			
+	2193711025	rev1	reverb_sta			
+	2193711026	rev2	reverb_sta			
+	2193711027	rev3	reverb_sta			
+	2193711028	rev4	reverb_sta			
+	2193711029	rev5	reverb_sta			
+	2193711030	rev6	reverb_sta			
+	2193711031	rev7	reverb_sta			
+	2193711032	rev8	reverb_sta			
+	2193711033	rev9	reverb_sta			
+	0	None	boyDeath			
+	930712164	off	boyDeath			
+	1651971902	on	boyDeath			
+	0	None	test_sws			
+	84696445	b	test_sws			
+	84696446	a	test_sws			
+	0	None	amb_sws_underground			
+	27594994	amb_sws_underground_pursuing_closingIn	amb_sws_underground			
+	119438304	amb_sws_underground_water_bodies	amb_sws_underground			
+	217411394	amb_sws_underground_spikes_preTrap	amb_sws_underground			
+	835980390	amb_sws_underground_water_tunnel	amb_sws_underground			
+	1001132209	amb_sws_underground_sleeping_boxes	amb_sws_underground			
+	1243868160	amb_sws_underground_pursuing_enterScene	amb_sws_underground			
+	2301445635	amb_sws_underground_spikes_postTrap	amb_sws_underground			
+	2375022323	amb_sws_underground_water_postTrap	amb_sws_underground			
+	2844124992	amb_sws_underground_sleeping_tunnel	amb_sws_underground			
+	3411647034	amb_sws_underground_water_enterScene	amb_sws_underground			
+	3427521957	amb_sws_underground_ropes_doorUp	amb_sws_underground			
+	3479257815	amb_sws_underground_pursuing_chaseEnd	amb_sws_underground			
+	3613611134	amb_sws_underground_ropes_doorDown	amb_sws_underground			
+	3915653060	amb_sws_underground_pursuing_chaseStart	amb_sws_underground			
+	0	None	gunObstructed			
+	930712164	off	gunObstructed			
+	1651971902	on	gunObstructed			
+	0	None	amb_sws_city			
+	607501142	amb_sws_city_roof_ground	amb_sws_city			
+	640865202	amb_sws_city_wagon_sawAction	amb_sws_city			
+	1616178856	amb_sws_city_start_slideDownClimbUp	amb_sws_city			
+	2308245815	amb_sws_city_hotel_exit	amb_sws_city			
+	2936519972	amb_sws_city_zombie_sawAction	amb_sws_city			
+	3013703883	amb_sws_city_roof_exit	amb_sws_city			
+	3065994122	amb_sws_city_insect	amb_sws_city			
+	3163511097	amb_sws_city_crane2	amb_sws_city			
+	3257627101	amb_sws_city_start_slideDownClimbUp_post	amb_sws_city			
+	3357922729	amb_sws_city_crane	amb_sws_city			
+	3375061138	amb_sws_city_hotel_zoomOut	amb_sws_city			
+	3654329136	amb_sws_city_roof_outside	amb_sws_city			
+	3727145803	amb_sws_city_wagon_preSaw	amb_sws_city			
+	3856510555	amb_sws_city_roof_inside	amb_sws_city			
+	4119609473	amb_sws_city_hotel_powerOff	amb_sws_city			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	35571736	on	movie	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\movieOnOff		
+	186786752	menu	menu	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\movieOnOff\inGame		
+	443755293	underWater	underWater	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\movieOnOff\inGame\aboveWater		
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	505906846	RTPC_CREDITS_FADE_VALUE			\Default Work Unit\RTPC_CREDITS_FADE_VALUE	
+	1056858167	RTPC_verb_level			\Default Work Unit\reverb\RTPC_verb_level	
+	2564988978	RTPC_MASTER_VOLUME			\Default Work Unit\RTPC_MASTER_VOLUME	
+	2960922596	RTPC_boy_level			\Default Work Unit\RTPC_boy_level	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	21336144	boy_puddle			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\aboveWater\reverbed\boy\boy_foley_materials\boy_puddle	
+	27166320	stateAmbience			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\aboveWater\non-reverbed\stateAmbience	
+	38675725	boy_metal			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\aboveWater\reverbed\boy\boy_foley_materials\boy_metal	
+	88163334	boy_cliff			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\aboveWater\reverbed\boy\boy_foley_materials\boy_cliff	
+	320938789	insectAirIdle			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\aboveWater\reverbed\duckingPairsWET\insectAirIdle	
+	373162680	Migrated			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\aboveWater\reverbed\Migrated	
+	471766202	reverbed			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\aboveWater\reverbed	
+	511798808	MISCnondiegetic			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\underWater\MISCnondiegetic	
+	546945281	boy			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\aboveWater\reverbed\boy	
+	574064400	boy_sand_snow			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\aboveWater\reverbed\boy\boy_foley_materials\boy_sand_snow	
+	715130573	boy_ground			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\aboveWater\reverbed\boy\boy_foley_materials\boy_ground	
+	721564742	boy_foley_static			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\aboveWater\reverbed\boy\boy_foley_static	
+	784278794	boy_voice			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\aboveWater\reverbed\boy\boy_voice	
+	805203703	Master Secondary Bus			\Default Work Unit\Master Secondary Bus	
+	984691642	inGame			\Default Work Unit\Master Audio Bus\movieOnOff\inGame	
+	1062276085	boy_ragdoll			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\aboveWater\reverbed\boy\boy_ragdoll	
+	1082095725	boy_metal_heavy			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\aboveWater\reverbed\boy\boy_foley_materials\boy_metal_heavy	
+	1117407343	movieOnOff			\Default Work Unit\Master Audio Bus\movieOnOff	
+	1117531639	amb			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\underWater\amb	
+	1152706534	creepIdle			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\aboveWater\reverbed\duckingPairsWET\creepIdle	
+	1182938922	boy_grass			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\aboveWater\reverbed\boy\boy_foley_materials\boy_grass	
+	1284196739	boy_wood			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\aboveWater\reverbed\boy\boy_foley_materials\boy_wood	
+	1341637450	boy_foley_noise			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\aboveWater\reverbed\boy\boy_foley_noise	
+	1392393440	boys			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\aboveWater\reverbed\boys	
+	1409647159	insectIdle			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\aboveWater\reverbed\duckingPairsWET\insectIdle	
+	1443383861	objectsWET			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\aboveWater\reverbed\objectsWET	
+	1506201155	boy_default			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\aboveWater\reverbed\boy\boy_foley_materials\boy_default	
+	1780099356	boy_foley_ladder_metal			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\aboveWater\reverbed\boy\boy_foley_ladder\boy_foley_ladder_metal	
+	2087127394	boy_death			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\aboveWater\reverbed\boy\boy_death	
+	2213237662	underWater			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\underWater	
+	2223786468	boy_branch			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\aboveWater\reverbed\boy\boy_foley_materials\boy_branch	
+	2243426923	duckingPairsWET			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\aboveWater\reverbed\duckingPairsWET	
+	2353953521	drown			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\underWater\drown	
+	2369155410	spiderWET			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\aboveWater\reverbed\spiderWET	
+	2387180392	boy_metal_grid			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\aboveWater\reverbed\boy\boy_foley_materials\boy_metal_grid	
+	2391339959	physicsDRY			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\aboveWater\non-reverbed\physicsDRY	
+	2439554216	physicsWET			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\aboveWater\reverbed\physicsWET	
+	2553012228	boy_foley_clothes			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\aboveWater\reverbed\boy\boy_foley_clothes	
+	2589231572	gunExplode			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\aboveWater\reverbed\duckingPairsWET\gunExplode	
+	2607556080	menu			\Default Work Unit\Master Audio Bus\movieOnOff\menu	
+	2716895704	boy_leaves			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\aboveWater\reverbed\boy\boy_foley_materials\boy_leaves	
+	2754319096	boy_coocoon			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\aboveWater\reverbed\boy\boy_coocoon	
+	2766637400	duckingPairsDRY			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\aboveWater\non-reverbed\duckingPairsDRY	
+	2786183121	spiderDRY			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\aboveWater\non-reverbed\spiderDRY	
+	2812444970	insectMove			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\aboveWater\reverbed\duckingPairsWET\insectMove	
+	2836857337	musicDRY			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\aboveWater\non-reverbed\musicDRY	
+	2967685096	non-reverbed			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\aboveWater\non-reverbed	
+	2977071597	eventAmbienceWET			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\aboveWater\reverbed\eventAmbienceWET	
+	3052983408	boy_foley_ladder_wood			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\aboveWater\reverbed\boy\boy_foley_ladder\boy_foley_ladder_wood	
+	3061934230	boy_foley_materials			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\aboveWater\reverbed\boy\boy_foley_materials	
+	3084293568	boy_foley_ladder			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\aboveWater\reverbed\boy\boy_foley_ladder	
+	3164038074	eventAmbienceDRY			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\aboveWater\non-reverbed\eventAmbienceDRY	
+	3274227778	boy_foley_rope_organic			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\aboveWater\reverbed\boy\boy_foley_rope\boy_foley_rope_organic	
+	3291195768	boy_foley_ladder_tin			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\aboveWater\reverbed\boy\boy_foley_ladder\boy_foley_ladder_tin	
+	3371193211	boy_foley_slide			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\aboveWater\reverbed\boy\boy_foley_slide	
+	3594185729	boy_water			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\aboveWater\reverbed\boy\boy_foley_materials\boy_water	
+	3737776974	creepActive			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\aboveWater\reverbed\duckingPairsWET\creepActive	
+	3794576306	boy_foley_rope_chain			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\aboveWater\reverbed\boy\boy_foley_rope\boy_foley_rope_chain	
+	3802949305	boy_splash			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\underWater\boy_splash	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3822619544	insectAirMove			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\aboveWater\reverbed\duckingPairsWET\insectAirMove	
+	3899996923	boy_brickwall			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\aboveWater\reverbed\boy\boy_foley_materials\boy_brickwall	
+	3992330349	boy_timber			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\aboveWater\reverbed\boy\boy_foley_materials\boy_timber	
+	4026188129	aboveWater			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\aboveWater	
+	4037541480	boy_foley_rope			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\aboveWater\reverbed\boy\boy_foley_rope	
+	4098460493	boy_concrete			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\aboveWater\reverbed\boy\boy_foley_materials\boy_concrete	
+	4184681100	environmentWET			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\aboveWater\reverbed\environmentWET	
+	4265465051	environmentDRY			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\aboveWater\non-reverbed\environmentDRY	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	1229948536	environment			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\aboveWater\reverbed\Migrated\environment	
+	2172757260	verb_default			\Default Work Unit\Master Audio Bus\movieOnOff\inGame\aboveWater\reverbed\Migrated\verb_default	
+
+Effect plug-ins	ID	Name	Type				Notes
+	284422375	Main_Comp (Define custom)	Wwise Peak Limiter			
+	1229948536	environment	Wwise RoomVerb			
+	2172757260	verb_default	Wwise RoomVerb			
+	2754468043	zombieIntro	Wwise Parametric EQ			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

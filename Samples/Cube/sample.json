@@ -1,0 +1,36 @@
+{
+    "id": "Cube",
+    "displayName": "Cube",
+    "description": "A full open-source game with C++ source code, Wwise project, and companion documentation.",
+    "imagePath": "Cube.png",
+    "wwiseProjectFilePath": "WwiseProject/Cube.wproj",
+    "requirements": [{
+        "platform": "osx",        
+        "validationFunction": "isSDL2Installed",
+        "errorMessage": "The SDL2 library is not detected. The Cube Demo for Mac requires SDL2 to be installed accordingly to the instructions at <a href='unsafe:https://www.audiokinetic.com/library/${wwise_version}/?source=Cube&id=running_the_cube_demo#install_libSDL2_for_mac'>https://www.audiokinetic.com/library/${wwise_version}/?source=Cube&id=running_the_cube_demo#install_libSDL2_for_mac</a>. Please restart the Wwise Launcher after the installation is complete."
+    }],
+    "demos": [
+        {
+            "displayName": "Run Cube",
+            "filePath": "cube/cube-profile.bat",
+            "platform": "windows"
+        },
+		{
+			"displayName": "Run Cube",
+            "filePath": "Mac/Profile/bin/RunCubeDemo.sh",
+            "platform": "osx"
+		}
+    ],
+    "documentation": [
+        {
+            "language": "en",
+            "displayName": "View Documentation",
+            "filePath": "Wwise_Cube_en.pdf"
+        },
+        {
+            "language": "en",
+            "displayName": "View Cube Readme",
+            "filePath": "cube/readme.html"
+        }
+    ]            
+}

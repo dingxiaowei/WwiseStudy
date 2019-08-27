@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{900433B5-3A97-41C6-9F3E-34910C5B08DF}" SchemaVersion="94">
+	<GameParameters>
+		<WorkUnit Name="Music" ID="{900433B5-3A97-41C6-9F3E-34910C5B08DF}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="EnemyAware" ID="{D7FCBFCD-C593-4300-8BC4-68FE275599EF}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="101"/>
+						<Property Name="Min" Type="Real64" Value="-1"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="10"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="1000"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Stinger_Sidechain" ID="{A67DC0D7-586C-47F6-8299-F9026F08679D}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="-48"/>
+						<Property Name="Max" Type="Real64" Value="6"/>
+						<Property Name="Min" Type="Real64" Value="-48"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

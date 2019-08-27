@@ -1,0 +1,164 @@
+<html>
+	<head>
+		<title>cube</title></head>
+	<body text="#ffffff" bgcolor="#302c28" link="#ffbb00" vlink="#ff9900" alink="#ff9900">
+		<font face="verdana,trebuchet ms,zurich bt,tahoma,arial,helvetica,sans-serif">
+			<center>
+				&nbsp;&nbsp;
+				<p>
+					<table width="80%">
+						<TBODY>
+							<tr>
+								<td BGCOLOR="#662222"><font size="3"><strong> Aardappel's tiny game engine </strong></font>
+								</td>
+							</tr>
+							<tr>
+								<td><font size="-1"> Cube is a tiny game engine hosting a singleplayer/multiplayer fps 
+										game (see features below). You will want to read (roughly this order):
+										<ul>
+											<li>
+												<a href="docs/config.html">config</a>: on running the game, the 
+											FAQ,&nbsp;and configuring it for your machine
+											<li>
+												<a href="docs/game.html">game</a>: information on gameplay
+											<li>
+												<a href="docs/editing.html">editing</a>: map making tutorial
+											<li>
+												<a href="docs/editref.html">reference</a>: map making reference
+											<li>
+												<a href="docs/history.html">history</a>: for seeing latest changes</li>
+										</ul>
+										note well: the engine is VERY different from any engine you have seen before. 
+										Failure to read the documentation in its entirety may cause you to:
+										<ul>
+											<li>
+											miss out on the cool features.
+											<li>
+											run it in an unoptimal way for your system.
+											<li>
+												conclude it "sucks" prematurely.</li>
+										</ul>
+										thanks :)
+										<p>
+										Wouter van Oortmerssen aka Aardappel
+										<p><A href="http://www.cubeengine.com/">http://www.cubeengine.com/</A> (&lt;- cube 
+											message board etc).&nbsp;
+											<br>
+										w v o A T g m x D O T n e t
+										<p>
+									</font>
+				</p>
+				</TD></TR>
+				<tr>
+					<td BGCOLOR="#662222"><font size="3"><strong> Current features </strong></font>
+					</td>
+				</tr>
+				<tr>
+					<td><font size="-1">
+							<ul>
+								<li>
+								automatic LOD on the whole map allowing for configurable fps / visual quality 
+								tradeoff on any hardware.
+								<li>
+								very high precision _dynamic_ occlusion culling.
+								<li>
+								simplistic but effective lighting, that can do _dynamic_ soft shadows &amp; 
+								lights.
+								<li>
+								in-engine editing of the world geometry in full 3D, even networked with 
+								multiple people (coop editing, a first!).
+								<li>
+								no map precompilation of any kind needed, everything is dynamic &amp; instant.
+								<li>
+								simplistic quad-tree world structure, with slopes (heightfields with caps), 
+								slants, water, and mapmodels.
+								<li>
+								robust&nbsp;collision detection &amp; physics
+								<li>
+								client/server networking, demo recording, master server / server browser
+								<li>
+								singleplayer &amp; multiplayer FPS game (weapons, items, many game modes, 
+								monsters, triggers) with savegames.
+								<LI>
+								mini scripting language
+								<LI>
+							comes with full source code under the ZLIB license! </font></LI></UL></td>
+				</tr>
+				<tr>
+					<td BGCOLOR="#662222"><font size="3"><strong> Thanks go to all contributors: </strong></font>
+					</td>
+				</tr>
+				<tr>
+					<td><font size="-1">
+							<UL>
+								<li>
+								eihrul (Lee Salzman) for his great network library, *nix ports, and extensive 
+								testing.
+								<li>
+								goetz (Johannes Hupp) for his endless map collection.
+								<li>
+								metlslime (John Fitzgibbons) for the metl1/2/3 maps, models, textures, and lots 
+								of feedback
+								<li>
+								sleepwalker (Kristian Duske) for his cube messageboard, hosting, master server, 
+								testing and feedback.
+								<li>
+								Lukas Zapletal &amp; Ludek Horacek (pingpong) for their cube soundtrack
+								<LI>
+								Fanatic (Marc A. Pullen) for his soundtrack and maps
+								<LI>
+								dcp (Dietmar Pier) for his extensive set of mapmodels
+								<LI>
+								Brendan Burns for his MacOSX port
+								<li>
+								Gomjabbar, RPG, pushplay, SirLiveAlot, kdoom (Kurt Kesler), KREiM, JCDPC, 
+								mitaman, nieb, fanatic, dcp, spentron, jf, Makke, driAn, Piglet, Rick Clark, 
+								zippie, gibbie, Tarin, Lu-Wang, Bal, Grindspire, Gleeb and Dave Bulow for their 
+								maps and feedback.
+								<li>
+								maj, cybear, paul, and all the other #terrafusion people for their testing 
+								&amp; feedback.
+								<li>
+								DarthVim for his hudguns.
+								<li>
+								DaMaul &amp; Lu-Wang for their game music.
+								<li>
+								Sock (http://www.planetquake.com/simland) for his brilliant egyptian &amp; tech 
+								textures
+								<li>
+								Iikka "Fingers" Keranen (www.digital-eel.com/surface) for his ikbase &amp; ik2k 
+								textures
+								<li>
+								Than (www.planetquake.com/cesspit) for his textures and feedback
+								<li>
+								Remedy Entertainment Ltd, for being so generous to make their Max Payne 
+								textures freely available.
+								<li>
+								Seth &amp; Ulrich Galbraith (http://www.planetquake.com/simitar) for their GPL 
+								models
+								<li>
+								Brian "EvilBastard" Collins, Conrad, Magarnigal, Psionic, James Green, Andreas 
+								Möller, Ryan Butts &amp; Jeramy Cooke for their&nbsp;q2 player models
+								<li>
+									the SDL team (www.libsdl.org), and the FMOD people (www.fmod.org) for their 
+									indispensable libraries</li></UL>
+							<p>
+						</font>&nbsp;</P></td>
+				</tr>
+				<tr>
+					<td BGCOLOR="#662222"><font size="3"><strong> License: </strong></font>
+					</td>
+				</tr>
+				<tr>
+					<td><font size="-1"> Cube is freeware, you may&nbsp;use Cube for any purpose as long as 
+							you don't blame me for any damages incurred, and you may freely 
+							distribute&nbsp;the cube archive unmodified on any media. If you wish to use 
+							the cube source code in any way (available from where you got this), even just 
+							a mere build, read the&nbsp;readme.txt file carefully (ZLIB license).
+							<p>
+						</font>&nbsp;</P></td>
+				</tr>
+				</TBODY></TABLE></center>
+		</font></P>
+	</body>
+</html>

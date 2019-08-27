@@ -1,0 +1,33 @@
+## Title
+
+title:          driAnMP3 : $HOME des Wuerfels
+version:        1
+author:         Adrian 'driAn' Henke
+e-mail:         drian@sprintf.org
+website:        http://sprintf.org
+
+
+## Stats
+
+files:          drianmp3.cfg drianmp3.cgz drianmp3_readme black_blah.jpg
+released:       06.14.2005
+game:           Cube - http://cubeengine.com
+mode:          	dunno
+players:        2-4
+
+
+## Thanks
+
+Thanks to makkE and KREiM for testing and
+to Aardappel for this awesome open source game!
+
+
+## License
+
+Copyright (c) 2005, Adrian Henke
+All rights reserved.
+
+Redistribution and use, with or without modification, are permitted provided that the following conditions are met:
+
+    * Redistributions must retain the above copyright notice, this list of conditions and the following disclaimer.
+    * Neither the name of the mapper nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.

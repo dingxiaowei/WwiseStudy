@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{52274FCC-FF38-4EDD-81BF-EC82E4A946E4}" SchemaVersion="94">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{52274FCC-FF38-4EDD-81BF-EC82E4A946E4}" PersistMode="Standalone">
+			<Comment>Limbo Wwise project
+COPYRIGHT MMX BY PLAYDEAD ApS </Comment>
+			<ChildrenList>
+				<Folder Name="amb_sws" ID="{238109D3-DB19-456D-BC72-27423D8C462C}" ShortID="965613165">
+					<ChildrenList>
+						<StateGroup Name="amb_sws_start" ID="{6D8AEA02-9454-405E-8FC8-2A768A2A15CC}">
+							<PropertyList>
+								<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+							</PropertyList>
+							<ChildrenList>
+								<State Name="None" ID="{601F4DB1-E0E3-44A3-AA4D-4ECE36CC24C3}"/>
+								<State Name="amb_sws_start_falling_enterwood" ID="{E985674A-8006-48A0-8D69-346E8208C206}"/>
+								<State Name="amb_sws_start_falling_landing" ID="{37FB4C83-9234-45C0-8BC1-811AE5B12A73}"/>
+								<State Name="amb_sws_start_falling_boatexitwater" ID="{B49E3840-5ACE-4296-AFBC-A87AA0DBD3EA}"/>
+								<State Name="amb_sws_start_falling_enterboat" ID="{6AEA1135-BD7C-42FE-BE86-4C6CF5497B34}"/>
+								<State Name="amb_sws_start_falling_cave" ID="{A20CE8F3-AC03-4B0C-8E50-31980AB0DD2F}"/>
+								<State Name="amb_sws_start_treeclimb_wood" ID="{8C3A72A6-9DF8-4BEA-93D4-082D5AD572D0}"/>
+								<State Name="amb_sws_start_falling_falling" ID="{22299AEB-6EA5-42FA-9994-1CEEC999B8FC}"/>
+								<State Name="amb_sws_start_falling_eyesopen" ID="{759C7122-8F3C-48F3-BCBC-806E2DD588A3}"/>
+							</ChildrenList>
+							<TransitionList>
+								<Transition>
+									<StartState Name="amb_sws_start_falling_falling" ID="{22299AEB-6EA5-42FA-9994-1CEEC999B8FC}"/>
+									<EndState Name="amb_sws_start_falling_eyesopen" ID="{759C7122-8F3C-48F3-BCBC-806E2DD588A3}"/>
+									<Time>10</Time>
+									<IsShared>false</IsShared>
+								</Transition>
+							</TransitionList>
+						</StateGroup>
+						<StateGroup Name="amb_sws_spider" ID="{CD0CDEB4-9D15-4854-9AF0-12CDF61879C5}">
+							<ChildrenList>
+								<State Name="None" ID="{9F1F6070-0FD3-432B-8265-6F0EC74DE09E}"/>
+								<State Name="amb_sws_spider_spiderCave_cave" ID="{50EE7B3A-4CF1-493E-9F9A-AD75EC322110}"/>
+								<State Name="amb_sws_spider_sitting_thirdlegoff" ID="{9344D1F0-4B52-4465-96A2-B2FA7B4794E5}"/>
+								<State Name="amb_sws_spider_cocoon_open" ID="{483CD973-1B3A-46CE-A39B-F26F360078C3}"/>
+								<State Name="amb_sws_spider_spiderCave_caveexit" ID="{B0BCA7AD-1BB0-464B-8EDF-6DBC504E936A}"/>
+								<State Name="amb_sws_spider_cocoon_bigslowstone" ID="{D5FBC064-347A-458D-BBB2-E9624D251059}"/>
+								<State Name="amb_sws_spider_cocoon_coocoonOff" ID="{AF8B1A0D-329F-466A-B172-DA3BA558CF3E}"/>
+								<State Name="amb_sws_spider_sitting_unfold" ID="{BF315A2E-D45C-46A7-8EF9-6744334D8FB9}"/>
+								<State Name="amb_sws_spider_spiderCave_spiderEnter" ID="{C10A4C8D-9132-44B8-9C52-A197BFE2837E}"/>
+								<State Name="amb_sws_spider_spiderCave_spiderExit" ID="{991E1641-2ADC-48F9-A954-462C7821984E}"/>
+							</ChildrenList>
+						</StateGroup>
+						<StateGroup Name="amb_sws_fort" ID="{4F1458B7-8D31-4AB5-B8A1-F52C23431FD5}">
+							<ChildrenList>
+								<State Name="None" ID="{2F40968D-C830-4B07-949B-907A856182F3}"/>
+								<State Name="amb_sws_fort_hanging_enterCave" ID="{0CBEF6B2-7DCD-47B6-8F32-4FB2A7D93DB2}"/>
+								<State Name="amb_sws_fort_jump_open" ID="{35925F74-5879-4AA1-8265-B9A036CB3B5B}"/>
+								<State Name="amb_sws_fort_jump_trap3" ID="{1CAC49F9-69E1-4746-860B-A0DD57E61A0C}"/>
+								<State Name="amb_sws_fort_jump_trap2" ID="{E16CDAC0-B2F5-4C2F-BBD1-C9FDE05444E9}"/>
+								<State Name="amb_sws_fort_jump_trap1" ID="{C56DB67C-61D9-448F-AC38-B76E3C1A1EFA}"/>
+								<State Name="amb_sws_fort_crossing" ID="{50DB2E8B-C973-4CD6-83F4-1F2F11257FEB}"/>
+								<State Name="amb_sws_fort_chase_spiderAppears" ID="{6C05B49C-8AD6-480C-8D77-BFA97F2659BB}"/>
+								<State Name="amb_sws_fort_body_enterScene" ID="{75C06965-DFD9-4481-ACFB-BD83918D6EBA}"/>
+								<State Name="amb_sws_fort_body_fightSpider" ID="{A6210328-7C21-4A98-A176-A2FE1471CE86}"/>
+								<State Name="amb_sws_fort_body_finalLegOff" ID="{C9F66C43-F22C-4F0C-A777-B07832A694B0}"/>
+								<State Name="amb_sws_fort_chase_wood" ID="{A988DFB8-3A1C-4039-B201-1A326134514D}"/>
+							</ChildrenList>
+						</StateGroup>
+						<StateGroup Name="amb_sws_underground" ID="{3EC34867-834E-40CF-9179-D7EBD534E589}">
+							<ChildrenList>
+								<State Name="None" ID="{86124F47-6FAE-4F2B-9AE7-812D7B80DE20}"/>
+								<State Name="amb_sws_underground_sleeping_boxes" ID="{F1947979-D00A-4F74-8AEF-4E1E2F845229}"/>
+								<State Name="amb_sws_underground_pursuing_chaseEnd" ID="{B5BD5B9B-D79D-4378-AEF3-99AB4417426E}"/>
+								<State Name="amb_sws_underground_pursuing_enterScene" ID="{DE7979B0-0BAB-4F05-BB68-91DE2B254249}"/>
+								<State Name="amb_sws_underground_pursuing_closingIn" ID="{D458235F-CC18-43AB-B76A-C4369B8032D4}"/>
+								<State Name="amb_sws_underground_pursuing_chaseStart" ID="{F1DDD0A1-9697-4C6D-87D4-B4903A281982}"/>
+								<State Name="amb_sws_underground_ropes_doorDown" ID="{F1E8499B-363F-4A84-84CD-E52F0CB0B973}"/>
+								<State Name="amb_sws_underground_ropes_doorUp" ID="{12D3DD85-7785-4B7E-B0ED-C7EDD104010A}"/>
+								<State Name="amb_sws_underground_sleeping_tunnel" ID="{B2DB5189-3D60-4F30-8DC0-D966D5B8072A}"/>
+								<State Name="amb_sws_underground_spikes_preTrap" ID="{E686779D-B732-411B-B5BC-6189579AABE2}"/>
+								<State Name="amb_sws_underground_spikes_postTrap" ID="{1BF84A11-3355-4C0C-B676-9CA61E609637}"/>
+								<State Name="amb_sws_underground_water_bodies" ID="{6822A109-7906-4A7D-BE8E-B3130C4E1977}"/>
+								<State Name="amb_sws_underground_water_enterScene" ID="{A756E1E1-786B-49CC-B871-57B212D00683}"/>
+								<State Name="amb_sws_underground_water_postTrap" ID="{6F3F2693-0E2E-49CF-BD65-41511C2F88DB}"/>
+								<State Name="amb_sws_underground_water_tunnel" ID="{58EE0B6B-D485-4734-B0E6-1882FAA4B9B7}"/>
+							</ChildrenList>
+						</StateGroup>
+						<StateGroup Name="amb_sws_old" ID="{B682A8DB-A587-46FD-8E32-11DD38B16E66}">
+							<ChildrenList>
+								<State Name="None" ID="{3E2BE73A-F6BA-4728-92FC-648819A67508}"/>
+								<State Name="amb_sws_old_balance" ID="{F4884970-ABFD-4C77-BE24-B6AD99EF9E0D}"/>
+								<State Name="amb_sws_old_rotatingIntro_rotate1start" ID="{7BEDE0B4-CE90-47EA-81A6-A7C3C38C8BF9}"/>
+								<State Name="amb_sws_old_rotatingIntro_rotate1stop" ID="{A549A7AE-9FED-4158-93B9-615E7CF4D7E1}"/>
+								<State Name="amb_sws_old_rotatingIntro_rotate2start" ID="{233E467F-E58D-4AE1-9BB8-5F8B8D15B2EF}"/>
+								<State Name="amb_sws_old_rotatingIntro_rotate2stop" ID="{10F387AC-0E29-46B4-A151-DE4B6D8F0243}"/>
+								<State Name="amb_sws_old_rotatingSaw_roomRotatingStart" ID="{5C5D0688-3498-497E-8841-47C69734F7B1}"/>
+								<State Name="amb_sws_old_cogwheelANDladderWagon" ID="{E2D4F91F-2184-4778-BD2D-4C4D1C383A89}"/>
+								<State Name="amb_sws_old_rotatingDark_enter" ID="{E060B0B1-3201-46DC-BC1A-30810065D417}"/>
+								<State Name="amb_sws_old_wagonAction1_enterScene" ID="{143CD3E6-08D2-42C5-A252-AADB10816BEB}"/>
+								<State Name="amb_sws_old_rotatingDark_roomStartRotate" ID="{A3DB1DF2-5193-44D9-BDB8-B00F061C1D59}"/>
+								<State Name="amb_sws_old_rotatingDark_roomFinishedRotate" ID="{82F2ACF4-44FB-4B55-B7ED-A4C6A28085A8}"/>
+								<State Name="amb_sws_old_twoblades_corridor" ID="{6F736636-3A8C-4C3C-9E81-FCCEA63A38AF}"/>
+								<State Name="amb_sws_old_tire_cogWheelStartTurning" ID="{E24A6A3E-6768-4FB2-83FE-ADB14D13F1AA}"/>
+								<State Name="amb_sws_old_rotatingIntro_prelude" ID="{D9F46135-EB16-4587-ABC0-717163071779}"/>
+								<State Name="amb_sws_old_rotatingIntro_magnet1offFinal" ID="{436160EE-F01B-4A38-9164-ABDC71368EA7}"/>
+								<State Name="amb_sws_old_rotatingIntro_rotate2rope" ID="{0E80F434-9BA7-4EE5-AFFD-33445AA911A6}"/>
+								<State Name="amb_sws_old_comveyer_zombieSnailOn" ID="{F08BD1EF-3034-4B35-A73D-FA008C1E92EF}"/>
+							</ChildrenList>
+							<TransitionList>
+								<Transition>
+									<StartState Name="amb_sws_old_tire_cogWheelStartTurning" ID="{E24A6A3E-6768-4FB2-83FE-ADB14D13F1AA}"/>
+									<EndState Name="amb_sws_old_balance" ID="{F4884970-ABFD-4C77-BE24-B6AD99EF9E0D}"/>
+									<Time>0.1</Time>
+									<IsShared>true</IsShared>
+								</Transition>
+							</TransitionList>
+						</StateGroup>
+						<StateGroup Name="amb_sws_modern" ID="{7E81289A-E8ED-4F54-9F4B-8C5BB5A9C270}">
+							<PropertyList>
+								<Property Name="DefaultTransitionTime" Type="Real64" Value="3"/>
+							</PropertyList>
+							<ChildrenList>
+								<State Name="None" ID="{EDF4DC27-8FE4-4D17-A11C-F6A02F4F6CBE}"/>
+								<State Name="amb_sws_modern_lasersShooting_laserAction" ID="{3811564E-7A8A-4644-B410-DAD3895572CC}"/>
+								<State Name="amb_sws_modern_lasersShooting_postLaser" ID="{7E1214F3-39F7-4535-8232-FD367AAC584C}"/>
+								<State Name="amb_sws_modern_gravityZone" ID="{6E19B545-5B38-4B51-8D6B-7300380E32B0}"/>
+								<State Name="amb_sws_modern_crusher_exit" ID="{14A55664-A34A-4E89-B986-565B2F1B259F}"/>
+								<State Name="amb_sws_modern_magnetGravity" ID="{79D57903-FBBB-4315-A0F8-4930032F0EF3}"/>
+								<State Name="amb_sws_modern_crusher" ID="{398C2C74-9C85-40B4-9DD0-DC4DC87C4FF4}"/>
+								<State Name="amb_sws_modern_open" ID="{538F8634-D6EF-4E30-A520-2FA264471B82}"/>
+								<State Name="amb_sws_modern_cable" ID="{3B002713-FE81-4391-8C02-4A34FA34F473}"/>
+								<State Name="amb_sws_modern_cable_air" ID="{FD8B24E7-47A2-47D4-A803-3094F1A1332F}"/>
+								<State Name="amb_sws_modern_hotel" ID="{29D8D741-0F3D-4DB0-A143-256D1450E7E1}"/>
+								<State Name="amb_sws_modern_elevator_gravityBox" ID="{0E2F208F-BABE-44A8-AC03-DD293F12ECA9}"/>
+								<State Name="amb_sws_modern_gravityZone_exit" ID="{34B44F90-5DD7-4A61-A0F9-210F47B1449A}"/>
+								<State Name="amb_sws_modern_box_enterScene" ID="{30D50637-7112-4373-A229-929A1FF1CD5B}"/>
+								<State Name="amb_sws_modern_jump_blockHitFirstTime" ID="{8B4D01D4-5C40-41ED-9539-F84FB0EB7DB1}"/>
+								<State Name="amb_sws_modern_jump_boySurvive1" ID="{A9F91203-4CEE-4324-BB13-50FE91CDCA78}"/>
+								<State Name="amb_sws_modern_jump_boySurvive2" ID="{2D6576F2-742F-4709-817B-3851626F2BE0}"/>
+								<State Name="amb_sws_modern_jump_boySurvive3" ID="{3262B62F-5990-4B74-B467-84FD48D9D34A}"/>
+								<State Name="amb_sws_modern_jump_boySurvive4" ID="{C13ABC39-CD8B-455B-A617-FDE15C8823D8}"/>
+								<State Name="amb_sws_modern_jump_gravityButton1Pressed" ID="{EF3BB7D7-8BBA-4ABA-A2BE-2749DBB0AA6A}"/>
+								<State Name="amb_sws_modern_jump_gravityButton2Pressed" ID="{750C382B-1695-4CF8-AE51-B67E32FAC2DF}"/>
+								<State Name="amb_sws_modern_jump_lightFadeIn" ID="{2BD6F737-CF1B-4147-84B1-AB1345EABAB5}"/>
+								<State Name="amb_sws_modern_box_changeUp" ID="{4F9D903A-E690-4B02-877B-A768FC69044D}"/>
+								<State Name="amb_sws_modern_box_changeDownSurvive" ID="{0C533C31-E12A-4990-9C97-C3D570B421D9}"/>
+								<State Name="amb_sws_modern_hotel_sawSurvive" ID="{3E8DEA55-011E-4B42-874C-295A1FA33114}"/>
+								<State Name="amb_sws_modern_hotel_saw" ID="{2779A586-6C50-4F58-9711-2FCF6FA91F6B}"/>
+								<State Name="amb_sws_modern_theEnd_girlMoves" ID="{3DDD5A9D-B691-4AFE-A36C-ED493B74FA94}"/>
+								<State Name="amb_sws_modern_jump_lightFadeIn_surogate" ID="{90D3E3F9-AC4F-4700-A295-1E1FEE0FF281}"/>
+								<State Name="amb_sws_modern_theEnd_blackout" ID="{ABF236CF-2A10-4F7C-B7AE-AF78B8750AB5}"/>
+							</ChildrenList>
+							<TransitionList>
+								<Transition>
+									<StartState Name="amb_sws_modern_jump_boySurvive2" ID="{2D6576F2-742F-4709-817B-3851626F2BE0}"/>
+									<EndState Name="amb_sws_modern_jump_boySurvive3" ID="{3262B62F-5990-4B74-B467-84FD48D9D34A}"/>
+									<Time>0</Time>
+									<IsShared>false</IsShared>
+								</Transition>
+								<Transition>
+									<StartState Name="amb_sws_modern_box_changeUp" ID="{4F9D903A-E690-4B02-877B-A768FC69044D}"/>
+									<EndState Name="amb_sws_modern_box_changeDownSurvive" ID="{0C533C31-E12A-4990-9C97-C3D570B421D9}"/>
+									<Time>0</Time>
+									<IsShared>false</IsShared>
+								</Transition>
+							</TransitionList>
+						</StateGroup>
+						<StateGroup Name="amb_sws_city" ID="{DEFD515F-2D2A-4610-92AA-00DD5D25D1F5}">
+							<ChildrenList>
+								<State Name="None" ID="{0ECADF30-1888-4DB0-943E-2FE9CF808976}"/>
+								<State Name="amb_sws_city_roof_outside" ID="{45D626D8-6F8A-4D48-A037-D25758CE097A}"/>
+								<State Name="amb_sws_city_roof_inside" ID="{E5370A2C-2CE3-4F76-A628-6EFB6CB1D91E}"/>
+								<State Name="amb_sws_city_roof_exit" ID="{EA7B489C-ADE3-4B74-B055-4CE8712B4DF8}"/>
+								<State Name="amb_sws_city_hotel_zoomOut" ID="{B0FBBC88-F706-4DB3-AFDD-37D0F9EDADE5}"/>
+								<State Name="amb_sws_city_hotel_exit" ID="{9889E8C1-D2B3-4451-935A-CA2FCA351BE8}"/>
+								<State Name="amb_sws_city_crane" ID="{37AE0ACA-24C0-47DF-B851-5D702212042C}"/>
+								<State Name="amb_sws_city_crane2" ID="{8154FBC5-FE2B-4B1B-9950-77639FB6036B}"/>
+								<State Name="amb_sws_city_roof_ground" ID="{C8D13653-4AD9-41D6-AEBB-1178D03D53AA}"/>
+								<State Name="amb_sws_city_wagon_sawAction" ID="{779E26E0-E968-4E56-AFA1-D89A6D7334C7}"/>
+								<State Name="amb_sws_city_wagon_preSaw" ID="{C823D9F6-E0EA-4530-A40E-103BBF6F75A7}"/>
+								<State Name="amb_sws_city_start_slideDownClimbUp" ID="{F812E902-3430-49EA-B413-555417CDFDD7}"/>
+								<State Name="amb_sws_city_insect" ID="{BC4AE7B8-F721-4AC6-B9B7-7C4F0714830E}"/>
+								<State Name="amb_sws_city_hotel_powerOff" ID="{73D449CD-4E2E-4762-983F-64310CC546C4}"/>
+								<State Name="amb_sws_city_zombie_sawAction" ID="{C3D6EF28-23BD-469D-92E8-DD461A01C99E}"/>
+								<State Name="amb_sws_city_start_slideDownClimbUp_post" ID="{DE036D05-6F3D-4106-BFF0-318E102293C7}"/>
+							</ChildrenList>
+						</StateGroup>
+						<StateGroup Name="amb_sws_water" ID="{3B0C669E-D82C-45D6-B296-8208C010709F}">
+							<ChildrenList>
+								<State Name="None" ID="{D6248CF1-9AF5-4A47-8B3E-8D265CEABF89}"/>
+								<State Name="amb_sws_water_rain_preRain" ID="{9F2802F0-2289-4248-A3D5-69B3AE2B36EF}"/>
+								<State Name="amb_sws_water_rain_raining" ID="{183AE7DC-CE30-4B02-830A-673AFCDAC64E}"/>
+								<State Name="amb_sws_water_sewer_enterScene" ID="{A7FF42E9-B588-47A7-91AB-B061E7D2BA2D}"/>
+								<State Name="amb_sws_water_sewer_waterBlocked" ID="{7F46CF54-719A-4D29-A11F-71B457BC6BE4}"/>
+								<State Name="amb_sws_water_sewer_silenceBefore" ID="{24302D50-AB34-43C4-9425-30D640DD5E6C}"/>
+								<State Name="amb_sws_water_sewer_section2" ID="{B13E7B15-9FD7-41B1-BDD7-28C41BCD157B}"/>
+								<State Name="amb_sws_water_sewer_section2postFlood" ID="{BA94951C-89F0-41EE-B404-D6BD3E2B0C4A}"/>
+								<State Name="amb_sws_water_heights" ID="{34669B67-A1C9-4C9D-B5E2-B5C47D425771}"/>
+								<State Name="amb_sws_water_heights_exit" ID="{1F38F52F-35F1-4412-9C79-8D4EC50F8872}"/>
+								<State Name="amb_sws_water_zombieSewer_enterScene" ID="{3B7986B2-FD82-4DFB-A7FD-ED887A491F2E}"/>
+								<State Name="amb_sws_water_zombieSewer_waterFlooding" ID="{CD8AFD73-99C2-4E9D-8DCD-2867D3D6D115}"/>
+								<State Name="amb_sws_water_zombieSewer_waterStill" ID="{023A6789-AD39-4740-A7CD-C4FBD3970ECB}"/>
+								<State Name="amb_sws_water_zombieSewer_transToCity" ID="{16D8227D-578E-4FB2-BA27-5D3CBAB330C0}"/>
+								<State Name="amb_sws_water_rain_boyEnterSewer" ID="{A99C71A0-9018-432E-B0EA-C291793DCF60}"/>
+								<State Name="amb_sws_water_rain_raining_zoomout1" ID="{F06F380A-4BD8-48B9-87B5-E7C4317BC90B}"/>
+								<State Name="amb_sws_water_rain_raining_zoomout2" ID="{94B00F1E-D5C2-485C-8C4C-8A65A47E9FCD}"/>
+								<State Name="amb_sws_water_zombieIntro_doorDownLastTime" ID="{114044CF-4C21-446C-B136-1AB23AFDE0AE}"/>
+							</ChildrenList>
+						</StateGroup>
+						<StateGroup Name="AMBIENCE" ID="{A3134037-49B3-4E4D-A31C-14C0B0BD0C64}">
+							<ChildrenList>
+								<State Name="None" ID="{A41C5023-3BC7-4768-B2A8-763E2F5BBEFA}"/>
+								<State Name="amb_sws_city" ID="{420A913B-28D3-4114-B5DC-3E90877EFFF2}"/>
+								<State Name="amb_sws_fort" ID="{2AF51040-F2C9-4871-841C-21E0B584EC1B}"/>
+								<State Name="amb_sws_modern" ID="{57778316-CB4C-4E36-9061-3DEE3D4C097A}"/>
+								<State Name="amb_sws_old" ID="{BE175FAC-DA4B-4472-B47D-5D50359A309B}"/>
+								<State Name="amb_sws_spider" ID="{55D4B85C-6A3A-41E2-8026-F741FC3E3DF5}"/>
+								<State Name="amb_sws_start" ID="{334AC6BC-F805-4C36-B28C-05039F66B047}"/>
+								<State Name="amb_sws_underground" ID="{68B5D136-F781-415D-B70D-CB2CAC339429}"/>
+								<State Name="amb_sws_water" ID="{15BBF177-1CAE-46C0-BCAD-0A20557E6E1A}"/>
+								<State Name="amb_sws_menu" ID="{8926EC0B-1E4E-41CF-BBF8-50178A733F68}"/>
+								<State Name="amb_sws_darkness" ID="{17C77F1D-BBBF-47B8-92E4-69F11C2BFB06}"/>
+							</ChildrenList>
+							<TransitionList>
+								<Transition>
+									<StartState Name="amb_sws_city" ID="{420A913B-28D3-4114-B5DC-3E90877EFFF2}"/>
+									<EndState Name="amb_sws_old" ID="{BE175FAC-DA4B-4472-B47D-5D50359A309B}"/>
+									<Time>0.1</Time>
+									<IsShared>false</IsShared>
+								</Transition>
+							</TransitionList>
+						</StateGroup>
+						<StateGroup Name="amb_sws_darkness" ID="{1E251D1D-70DE-4083-86FE-E4645444E9BA}">
+							<PropertyList>
+								<Property Name="DefaultTransitionTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ChildrenList>
+								<State Name="None" ID="{5B1A40F7-78DB-42C3-A064-FEFCDF49D5F4}"/>
+								<State Name="amb_sws_darkness_zombie" ID="{1D5FCA9F-DF89-48B6-8EFB-A4ABC39FDF3A}"/>
+								<State Name="amb_sws_darkness_hangToLive" ID="{BB512BEA-911D-4055-9E54-23B86F640521}"/>
+								<State Name="amb_sws_darkness_sparks" ID="{8B655C46-F2C0-4A64-8E51-2CCFE43BC983}"/>
+								<State Name="amb_sws_darkness_sawInDark" ID="{FFA8C126-1008-40A8-8D01-7FD5808D51E0}"/>
+								<State Name="amb_sws_darkness_stones" ID="{8C88CEF8-3A50-4AFD-BB64-7ACADCA84152}"/>
+								<State Name="amb_sws_darkness_sawJump" ID="{2909A7A3-0065-4A19-8F1B-8E2E0630F87A}"/>
+								<State Name="amb_sws_darkness_sawJump_spark" ID="{D6F94C01-00C8-463D-A7DC-469118400227}"/>
+								<State Name="amb_sws_darkness_gun" ID="{D532A66B-1D0C-4DC9-84E1-55DF57176871}"/>
+								<State Name="amb_sws_darkness_needsAchivements" ID="{7D050F57-D7FB-433D-9276-07EAE56E240B}"/>
+								<State Name="amb_sws_darkness_hasAllAchivements" ID="{364909E6-DCB0-4045-BE2D-571249758B8D}"/>
+								<State Name="amb_sws_darkness_guns_startRotation" ID="{F6D5C156-B774-4CBC-A017-FF78C54DEB90}"/>
+								<State Name="amb_sws_darkness_guns_stopRotation" ID="{0B8B4A44-C364-4997-A734-830E6944B266}"/>
+								<State Name="amb_sws_darkness_guns_smashEgg" ID="{824066EB-68B3-458D-ABEA-712A0E8BFB5C}"/>
+								<State Name="amb_sws_darkness_guns_startRotationPre" ID="{60A9681B-7601-4DD4-BF17-A2F308959FAC}"/>
+							</ChildrenList>
+							<TransitionList>
+								<Transition>
+									<StartState Name="amb_sws_darkness_hasAllAchivements" ID="{364909E6-DCB0-4045-BE2D-571249758B8D}"/>
+									<EndState Name="amb_sws_darkness_zombie" ID="{1D5FCA9F-DF89-48B6-8EFB-A4ABC39FDF3A}"/>
+									<Time>0.1</Time>
+									<IsShared>false</IsShared>
+								</Transition>
+							</TransitionList>
+						</StateGroup>
+					</ChildrenList>
+				</Folder>
+				<StateGroup Name="reverb_sta" ID="{745D2E25-0C7B-458C-B268-F425A5D34467}">
+					<ChildrenList>
+						<State Name="None" ID="{22BEFB23-61EC-4884-95EA-F78136A4F987}"/>
+						<State Name="rev0" ID="{039AA0EF-AE7F-4CDF-8C52-4B95E37F902F}"/>
+						<State Name="rev1" ID="{9A298512-EFB5-400C-9547-77A7FAAA1703}"/>
+						<State Name="rev3" ID="{61B96DDE-C1F2-4093-AB88-56B42B603135}"/>
+						<State Name="rev2" ID="{97A44FED-F98C-498B-B1E4-B73D8B39DE89}"/>
+						<State Name="rev4" ID="{654F5CA4-AFE5-42F4-9D0F-49FD9AB001FB}"/>
+						<State Name="rev5" ID="{E31B6BF4-9EE6-4927-8AD7-247972A72602}"/>
+						<State Name="rev6" ID="{D6AD0AED-57FE-43DC-8770-4B1216F55C7C}"/>
+						<State Name="rev7" ID="{F4716EC8-8E18-4E7D-9C37-DA13F528BF21}"/>
+						<State Name="rev8" ID="{0786C5A6-C166-4F31-A6FC-26FDA40FE902}"/>
+						<State Name="rev9" ID="{F03C69FE-2722-4A0D-B956-236221E67BD9}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="underWater" ID="{EC35EAAF-463D-447B-9BAB-1CFA4A901C49}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{BD4832BE-83D5-4E65-8613-B9E4E0D686D5}"/>
+						<State Name="aboveWater" ID="{A3C5E87B-F5C2-4602-937A-81067C99114D}"/>
+						<State Name="underWater" ID="{673F23F1-693A-4645-A809-774064F52FAE}"/>
+					</ChildrenList>
+				</StateGroup>
+				<Folder Name="menu" ID="{322767F5-5FB5-41CB-9943-02A2138D50BF}" ShortID="785787681">
+					<ChildrenList>
+						<StateGroup Name="menu" ID="{D7A33487-ED78-46DC-BE3A-3670707B0846}">
+							<PropertyList>
+								<Property Name="DefaultTransitionTime" Type="Real64" Value="0.25"/>
+							</PropertyList>
+							<ChildrenList>
+								<State Name="None" ID="{D553BFEA-A8B1-405D-BFA7-C33CB868BE56}"/>
+								<State Name="inGame" ID="{6989DA60-BD41-47A9-BB5C-8FCAFE1C7367}"/>
+								<State Name="menu" ID="{1C180493-C2D9-4BFE-8121-AAA4BEF2F259}"/>
+							</ChildrenList>
+						</StateGroup>
+						<StateGroup Name="movie" ID="{AF646CA1-CEAF-4905-8955-046F70D14AC9}">
+							<PropertyList>
+								<Property Name="DefaultTransitionTime" Type="Real64" Value="0.25"/>
+							</PropertyList>
+							<ChildrenList>
+								<State Name="None" ID="{B97DA718-71D2-47EA-9F43-94AF83986FFA}"/>
+								<State Name="on" ID="{B01E80FF-C6AC-470B-8BDA-FBBC9FF648FE}"/>
+								<State Name="off" ID="{F9D1C0FC-82AA-40DF-81FD-D91BF67B647A}"/>
+							</ChildrenList>
+						</StateGroup>
+					</ChildrenList>
+				</Folder>
+				<StateGroup Name="test_sws" ID="{F2EC9A4E-122B-4BB9-977D-6F50AEA772F0}">
+					<ChildrenList>
+						<State Name="None" ID="{961DA136-C523-42CA-AB1D-33E33E158299}"/>
+						<State Name="a" ID="{9D06C133-42DD-4111-8AD1-A25D7D019F2D}"/>
+						<State Name="b" ID="{D9A8E32D-BC2E-4ACA-A2C5-FF39592C620F}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="zombieState" ID="{ED61D57D-31A6-44BB-8F46-04FC3EAC6EA1}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0.1"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{A282619B-7EA7-4D75-9F9F-40C755E72CA7}"/>
+						<State Name="zombieIntro" ID="{0B946349-60A5-4DA1-A097-3D46EA63D9E6}"/>
+						<State Name="normal" ID="{F8E5C6AE-8B92-4F10-9D46-1570FC31F77B}"/>
+						<State Name="zombieSewer" ID="{D88EB112-39E8-4BB0-BC20-8601E9DC45E4}"/>
+						<State Name="city" ID="{95CD0BE0-DB48-4B69-891C-7DB7CDDD2C46}"/>
+						<State Name="oldSchool" ID="{54FBEDD2-9443-4F36-994D-1E1A20E0EAB8}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="gunObstructed" ID="{8A2A9838-B82B-493E-8F9D-90BDCDA088AE}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{BFD3F5E8-BBF5-4657-9B66-D1357552AB55}"/>
+						<State Name="on" ID="{209E54C5-8039-4EA1-9840-228047D70CA8}"/>
+						<State Name="off" ID="{6597CA5A-51F4-4CCA-93AC-A973F2AB0E4A}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="zombieSewerMusic" ID="{CF682BF3-7553-4696-B8DE-7DF00F51926A}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0.1"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{AF52970C-DBCC-471A-AAEC-84F8CBC7642D}"/>
+						<State Name="normal" ID="{D8A3BE4B-90AC-4B79-8D64-B4BA3DB0A365}"/>
+						<State Name="on" ID="{EEF9E01B-F182-4544-BCA1-97123E0134AE}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="on" ID="{EEF9E01B-F182-4544-BCA1-97123E0134AE}"/>
+							<EndState Name="normal" ID="{D8A3BE4B-90AC-4B79-8D64-B4BA3DB0A365}"/>
+							<Time>3</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+				<Folder Name="boy" ID="{7490F241-B1CE-465A-80AA-BD9D13E4F626}" ShortID="732251176">
+					<ChildrenList>
+						<StateGroup Name="boy_ropestate" ID="{A593443F-06F5-4851-82F3-7D8D873B7A8A}">
+							<PropertyList>
+								<Property Name="DefaultTransitionTime" Type="Real64" Value="0.25"/>
+							</PropertyList>
+							<ChildrenList>
+								<State Name="None" ID="{08D4EF5D-9CF6-4543-92FB-7897430BB6E2}"/>
+								<State Name="start" ID="{B6D98A64-D3F6-49BB-BFB3-6D47D5058974}"/>
+								<State Name="stop" ID="{F77EB7B8-111A-4208-82F7-3E81682E1843}"/>
+							</ChildrenList>
+						</StateGroup>
+						<StateGroup Name="boyDeath" ID="{D39E9360-63FF-4F63-BEE2-B11656D422E4}">
+							<PropertyList>
+								<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+							</PropertyList>
+							<ChildrenList>
+								<State Name="None" ID="{2B2D67BB-3AF9-451D-B774-6C24DF20E845}"/>
+								<State Name="on" ID="{0FAF78A0-34FE-4E84-B311-4C0CF6B0489F}"/>
+								<State Name="off" ID="{27D4ECDD-0E28-4910-B6B3-72E4462F9855}"/>
+							</ChildrenList>
+							<TransitionList>
+								<Transition>
+									<StartState Name="off" ID="{27D4ECDD-0E28-4910-B6B3-72E4462F9855}"/>
+									<EndState Name="on" ID="{0FAF78A0-34FE-4E84-B311-4C0CF6B0489F}"/>
+									<Time>3</Time>
+									<IsShared>false</IsShared>
+								</Transition>
+							</TransitionList>
+						</StateGroup>
+						<StateGroup Name="boy_ragdoll" ID="{CF075966-028A-4D93-AAF0-6B356645A205}">
+							<ChildrenList>
+								<State Name="None" ID="{4698862D-C18C-4E7B-A0D1-F76DA6A417EE}"/>
+								<State Name="on" ID="{A53186EE-80B6-46DF-B96C-567A95D693BC}"/>
+								<State Name="off" ID="{0C42D1E3-3A1B-4A2F-9C6F-30E210F042D8}"/>
+							</ChildrenList>
+						</StateGroup>
+						<StateGroup Name="boy_amb_level" ID="{A10C40DE-91E3-4019-B598-18E293A84024}">
+							<PropertyList>
+								<Property Name="DefaultTransitionTime" Type="Real64" Value="0.1"/>
+							</PropertyList>
+							<ChildrenList>
+								<State Name="None" ID="{13F990E6-ABBD-4C0C-AE32-0A92F3C4EF5A}"/>
+								<State Name="minus96dB" ID="{582E6ACC-3B46-468C-9DF5-E5D92E5A6520}"/>
+								<State Name="default0dB" ID="{19F5BE0A-9055-4BA9-A751-119AAF682116}"/>
+								<State Name="minus3dB" ID="{C2446B71-8658-4659-9A6F-289E4896C58B}"/>
+								<State Name="minus6dB" ID="{6419C525-394E-436C-BB0D-C00FF5C249A6}"/>
+							</ChildrenList>
+						</StateGroup>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Migrated Arguments" ID="{73CE4F53-AE36-45D8-AED3-A21D27E08FA1}" ShortID="775020163"/>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

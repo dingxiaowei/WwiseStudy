@@ -1,0 +1,25 @@
+------------------------>wsg series For Cube<--------------------------
+Author SirLiveAlot(Corey) (SirLiveAlot@shaw.ca or SirLiveAlot@totalise.co.uk)
+files: wsg1.cgz,wsg2.cgz,wsg3.cgz wsg.txt
+------------------------------>Useless info<---------------------------------
+Created:April 21,2002
+Cube (http://wouter.fov120.com/cube/)
+Mode: Singleplayer
+Base: scratch
+Build time: To long
+Map#: 19-21
+------------------------------>Installation<---------------------------------
+To install it put it in the base folder of packages.
+--------------------------------->Rants<-------------------------------------
+Wow that many maps. Anyways, wsg1 was basically designed during a boring class
+and with finding out Aard had new textures I tried to see if it would work
+with the map. wsg2 Was just me finding to find the coolest way to use a bridge.
+wsg3 was me trying to improve my lighting skills. Although i'm not entirely 
+happy with the lighting and most likely never will be. Though out these map I
+felt like trying to avoid teleports and triggers. I'm not sure why, but I did.
+So, with out further ranting, enjoy the maps.
+------------------------------->Permissions<---------------------------------
+You're free to distribute this map as you wish as long as: you make no
+profit, and leave the files intact.  I reserve the right to ask you to
+remove files.  You're free to use the map as a base for your own work if
+you ask for permission and give me credit.

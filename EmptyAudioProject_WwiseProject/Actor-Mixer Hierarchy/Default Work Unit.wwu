@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{647A78B1-CDBE-4DE0-8B3E-441B48E7EDA6}" SchemaVersion="94">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{647A78B1-CDBE-4DE0-8B3E-441B48E7EDA6}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Player GunShot" ID="{B36EC4DC-7EC4-4B36-A868-3E6E641AA172}" ShortID="921640176">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F1EE75FE-A5F2-4162-864B-3D968E307EAC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4976B7DF-2395-4049-A22F-DDD99577F426}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Player GunShot" ID="{00BD64A0-B903-4F10-AC5A-B0A51D7DC01D}" ShortID="551870752">
+							<Language>SFX</Language>
+							<AudioFile>Player GunShot.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Player GunShot" ID="{00BD64A0-B903-4F10-AC5A-B0A51D7DC01D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="ZomBear Hurt" ID="{AFF0FED8-1C4C-46D0-A889-AC8FFD82BF77}" ShortID="264182726">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F1EE75FE-A5F2-4162-864B-3D968E307EAC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4976B7DF-2395-4049-A22F-DDD99577F426}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ZomBear Hurt" ID="{2805C210-5404-402B-8552-9DAA60D92A1B}" ShortID="96438904">
+							<Language>SFX</Language>
+							<AudioFile>ZomBear Hurt.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="ZomBear Hurt" ID="{2805C210-5404-402B-8552-9DAA60D92A1B}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E1630F87-752D-43D7-8F08-83FE1A8FF934}" SchemaVersion="94">
+	<Events>
+		<WorkUnit Name="Car Engine" ID="{E1630F87-752D-43D7-8F08-83FE1A8FF934}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Porsche_911" ID="{3B76BD3D-0970-4AFE-A343-8023ABBFB660}">
+					<ChildrenList>
+						<Action Name="" ID="{D0CA317A-455B-4C60-B6DC-754865FA212F}" ShortID="180284400">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Porsche 911 - Blend Container" ID="{97A58685-6231-4227-9BAB-451E089615A8}" WorkUnitID="{9363D8B7-704B-44A7-B37C-A1AB3AF620DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Porsche_911" ID="{A221AA77-493A-4B8C-902A-4E5237E26260}">
+					<ChildrenList>
+						<Action Name="" ID="{705CA1C4-571C-42DB-8BD3-C7735637D248}" ShortID="38732644">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Porsche 911 - Blend Container" ID="{97A58685-6231-4227-9BAB-451E089615A8}" WorkUnitID="{9363D8B7-704B-44A7-B37C-A1AB3AF620DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

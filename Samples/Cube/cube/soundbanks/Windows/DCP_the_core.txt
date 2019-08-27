@@ -1,0 +1,40 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2229218260	DCP_Enter12			\Default Work Unit\Maps\DCP_the_core\DCP_Enter12	
+	2229218262	DCP_Enter10			\Default Work Unit\Maps\DCP_the_core\DCP_Enter10	
+	2229218263	DCP_Enter11			\Default Work Unit\Maps\DCP_the_core\DCP_Enter11	
+	2245995840	DCP_Enter09			\Default Work Unit\Maps\DCP_the_core\DCP_Enter09	
+	2245995841	DCP_Enter08			\Default Work Unit\Maps\DCP_the_core\DCP_Enter08	
+	2245995848	DCP_Enter01			\Default Work Unit\Maps\DCP_the_core\DCP_Enter01	
+	2245995850	DCP_Enter03			\Default Work Unit\Maps\DCP_the_core\DCP_Enter03	
+	2245995851	DCP_Enter02			\Default Work Unit\Maps\DCP_the_core\DCP_Enter02	
+	2245995852	DCP_Enter05			\Default Work Unit\Maps\DCP_the_core\DCP_Enter05	
+	2245995853	DCP_Enter04			\Default Work Unit\Maps\DCP_the_core\DCP_Enter04	
+	2245995854	DCP_Enter07			\Default Work Unit\Maps\DCP_the_core\DCP_Enter07	
+	2245995855	DCP_Enter06			\Default Work Unit\Maps\DCP_the_core\DCP_Enter06	
+	2829720188	DCP_Signal01			\Default Work Unit\Maps\DCP_the_core\DCP_Signal01	
+	2829720191	DCP_Signal02			\Default Work Unit\Maps\DCP_the_core\DCP_Signal02	
+	3721111614	DCP_Music			\Default Work Unit\Maps\DCP_the_core\DCP_Music	
+
+Effect plug-ins	ID	Name	Type				Notes
+	564140752	Default (Custom)	Wwise Matrix Reverb			
+	805262001	Default (Custom)	Wwise Matrix Reverb			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	55290557	enter10	D:\Jenkins\ws\wwise_v2019.1\Cube\WwiseProject\.cache\Windows\SFX\enter10_CC87FBFB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Maps\DCP_the_core\Map Voices\enter10		194104
+	187024402	Signal01	D:\Jenkins\ws\wwise_v2019.1\Cube\WwiseProject\.cache\Windows\SFX\signal01_CC87FBFB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Maps\DCP_the_core\Map Items\Signal01		114734
+	209784911	enter12	D:\Jenkins\ws\wwise_v2019.1\Cube\WwiseProject\.cache\Windows\SFX\enter12_CC87FBFB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Maps\DCP_the_core\Map Voices\enter12		166134
+	245661189	enter01	D:\Jenkins\ws\wwise_v2019.1\Cube\WwiseProject\.cache\Windows\SFX\enter01_CC87FBFB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Maps\DCP_the_core\Map Voices\enter01		158824
+	396065929	enter02	D:\Jenkins\ws\wwise_v2019.1\Cube\WwiseProject\.cache\Windows\SFX\enter02_CC87FBFB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Maps\DCP_the_core\Map Voices\enter02		227786
+	405744097	enter07	D:\Jenkins\ws\wwise_v2019.1\Cube\WwiseProject\.cache\Windows\SFX\enter07_CC87FBFB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Maps\DCP_the_core\Map Voices\enter07		264664
+	504552545	enter04	D:\Jenkins\ws\wwise_v2019.1\Cube\WwiseProject\.cache\Windows\SFX\enter04_CC87FBFB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Maps\DCP_the_core\Map Voices\enter04		262858
+	579081663	enter03	D:\Jenkins\ws\wwise_v2019.1\Cube\WwiseProject\.cache\Windows\SFX\enter03_CC87FBFB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Maps\DCP_the_core\Map Voices\enter03		179246
+	603800779	Signal02	D:\Jenkins\ws\wwise_v2019.1\Cube\WwiseProject\.cache\Windows\SFX\signal02_CC87FBFB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Maps\DCP_the_core\Map Items\Signal02		6728
+	651618676	enter11	D:\Jenkins\ws\wwise_v2019.1\Cube\WwiseProject\.cache\Windows\SFX\enter11_CC87FBFB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Maps\DCP_the_core\Map Voices\enter11		301708
+	705228804	enter05	D:\Jenkins\ws\wwise_v2019.1\Cube\WwiseProject\.cache\Windows\SFX\enter05_CC87FBFB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Maps\DCP_the_core\Map Voices\enter05		269074
+	819733394	enter09	D:\Jenkins\ws\wwise_v2019.1\Cube\WwiseProject\.cache\Windows\SFX\enter09_CC87FBFB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Maps\DCP_the_core\Map Voices\enter09		191658
+	882747087	enter06	D:\Jenkins\ws\wwise_v2019.1\Cube\WwiseProject\.cache\Windows\SFX\enter06_CC87FBFB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Maps\DCP_the_core\Map Voices\enter06		129936
+	965577559	enter08	D:\Jenkins\ws\wwise_v2019.1\Cube\WwiseProject\.cache\Windows\SFX\enter08_CC87FBFB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Maps\DCP_the_core\Map Voices\enter08		172054
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	797700993	Cube Main Theme	D:\Jenkins\ws\wwise_v2019.1\Cube\WwiseProject\.cache\Windows\SFX\cubetrak_91B2A2BD.wem	797700993.wem	\Actor-Mixer Hierarchy\Default Work Unit\Maps\DCP_the_core\Cube Main Theme	
+

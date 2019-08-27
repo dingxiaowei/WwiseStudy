@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{178741A1-83A9-4205-BA9D-9616C4194F06}" SchemaVersion="94">
+	<Events>
+		<WorkUnit Name="MyEvents" ID="{178741A1-83A9-4205-BA9D-9616C4194F06}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="PlayerShoot" ID="{13B9E811-EF45-4187-97A0-AFD490F3D343}">
+					<ChildrenList>
+						<Action Name="" ID="{0ED5E688-EA57-4368-8F73-FCCFA8406C98}" ShortID="462589141">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player GunShot" ID="{B36EC4DC-7EC4-4B36-A868-3E6E641AA172}" WorkUnitID="{647A78B1-CDBE-4DE0-8B3E-441B48E7EDA6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Hurt" ID="{671F458B-2AF7-4839-BCF8-FF85D0053899}">
+					<ChildrenList>
+						<Action Name="" ID="{2517C508-7ADF-41CC-A21C-B26899C2DD34}" ShortID="262291051">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ZomBear Hurt" ID="{AFF0FED8-1C4C-46D0-A889-AC8FFD82BF77}" WorkUnitID="{647A78B1-CDBE-4DE0-8B3E-441B48E7EDA6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{BD2A51AA-A333-49C1-B0D0-0FA7C49904BE}" ShortID="468386784">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="effects" ID="{C2CC7E3A-9629-406D-B46D-A5FCEE66187B}" WorkUnitID="{03DC813B-EA73-462B-BA24-4E1C7E172BCB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

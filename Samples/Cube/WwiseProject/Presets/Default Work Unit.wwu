@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0E628BA9-BAF8-4C34-8B39-BD4FFF6DA443}" SchemaVersion="94">
+	<Presets>
+		<WorkUnit Name="Default Work Unit" ID="{0E628BA9-BAF8-4C34-8B39-BD4FFF6DA443}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="Explode" ID="{0EEEB6D0-891D-44A1-B9B4-397489D26B33}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FrequencyBand1" Type="Real32" Value="1072"/>
+						<Property Name="GainBand1" Type="Real32" Value="7"/>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
+	</Presets>
+</WwiseDocument>

@@ -1,0 +1,13 @@
+"soireé aux douze portes ouvertes" by makkE and Lahme
+
+File Name : douze_beta.cgz
+Date      : 28.apr 2004
+Authors   : Markus Bekel aka makkE (buliding) and Lahme (Layout)
+E-mail    : makk_e@web.de
+
+Description: Large open map, may be hefty on older hardware, mainly designed for instagib. Beta Version.
+
+Thanx to: Ardappel and everyone else involved/contributing to Cube.
+
+You may distibute this map freely on any media as long as you don´t make a profit  and include this text file. You may use this level as a base for additional levels when given the authors´ permission.
+

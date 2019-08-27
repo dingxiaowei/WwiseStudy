@@ -1,0 +1,11 @@
+a q3dm2 rebuild by makkE
+
+File Name : q3dm2_beta.cgz
+Date      : 12.Mar 2004
+Author    : Markus Bekel aka makkE
+E-mail    : makk_e@web.de
+
+Description: A rebuild of q3dm2 for Cube. 
+             4-6 players.
+
+Can´t claim any rights on this one of course :) Have Fun.

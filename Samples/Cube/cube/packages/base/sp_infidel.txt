@@ -1,0 +1,62 @@
+
+=--------sp_infidel-------------------------------------------------------=
+
+Filename		: sp_infidel.zip\.czg\.txt
+Author			: Martin "LapSkauS" Schultz
+Email			: disturbed@tiscali.no
+Description		: SP Map for Cube
+Story			: A group of various monsters have stolen
+			  your magic carrot. It's magic because 
+			  it can spin very quickly, wich of course
+			  makes it incredibly precious to you. So,
+			  you set out to retrieve it and kill whoever
+			  gets in your way.
+
+
+Other maps by author	: Old stuff not worth mentioning.
+
+
+
+
+=--------Authors Ramblings------------------------------------------------=  
+
+ Well, first time i actually release a map in years. It should be
+pretty hard to complete, so this one is for the skilled players :)
+
+And before you go searching for that last 1 monster, don't bother.
+It's located in a solid chamber outside of the actual map, so grab
+the fast-spinning carrot to finish the map. Max kills is 148 if
+you have to know.
+
+Love it? Hate it? Send me an email and let me know!
+
+
+
+
+=--------How to use-------------------------------------------------------=
+
+1 - Unzip the .cgz file to your cube/packages/base directory.
+2 - Start cube and open the console.
+3 - type "/skill [a number between 1 and 10]" to adjust the skill setting.
+4 - type "/sp sp_infidel" to load the map and start the game.
+5 - Kill stuff :)
+
+
+
+
+=--------Thanks to--------------------------------------------------------=  
+
+Aardappel.. well, for making Cube i guess ;) You rock!
+Everyone contributing to Cube in one way or the other.
+
+
+
+
+=--------Copyright & legal shit-------------------------------------------=  
+
+Do whatever you want with this map, as long as you don't make any money
+from it without me getting a piece of the pie. I accept no responsibility
+for any damages caused by the use of this map. (yeah, right)
+
+
+

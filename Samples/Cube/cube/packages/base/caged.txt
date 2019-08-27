@@ -1,0 +1,37 @@
+Title:         "Caged"
+Author:        Marc A. Pullen (Fanatic)
+Released:      2004-01-04
+Email:         fanatic@fanaticalproductions.net
+Website:       http://fanaticalproductions.net
+Engine:        cube_2003_12_23.zip
+Other Projects: DOOM:       HacX, QDOOM, EDGE development/support/design, RUINS, ROKS, New Breed, Music for various projects etc.
+                Stronghold: Several levels (see my Website for screenshots and whatnot)
+                Cube:       Wandering
+
+=============
+To Play:
+=============
+
+Unzip this file to where you installed your Cube package into the "packages\base" folder.
+
+Run cube, then in the game press the tilde key (~), and type:
+
+/map fanatic_caged
+
+=============
+Level Notes:
+=============
+
+The MP3 included is an orignial song I wrote for this level to set the mood. The violins are MIDI, drum kit is a custom sound font bank based off the Meshuggah Drum Kit From Hell sound samples, and all guitars (lead, rhythm, and bass) are played live using a Line 6 PODXT preamp, an Ibanez SDGR 4 string bass and Ibanez SA 6 string guitar.
+
+This is my second level, and one that is intended for deathmatch only. No monsters, just a bunch of health, armour (3), quad (2), and some good spots to shoot from.
+
+Make sure you explore everywhere! Check in deep water, hop up mountain sides, look everywhere. :)
+
+This level ran fairly well on my system (P3 1ghz, 512 megs ram, 64 meg ge force4 AGP video), FPS never gets below 50. Slower systems may not be able to run this level very well due to the long view down the main hallway.
+
+Use the map for anything you want, no copyright or restrictions are imposed. The song is copyrighted (c) 2004 Marc A. Pullen, and may only be redistributed with this zip file for use in the Cube engine.
+
+Enjoy!
+
+    -Fanatic

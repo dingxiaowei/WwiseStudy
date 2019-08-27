@@ -1,0 +1,23 @@
+------------------->Style Explosion for Cube<------------------
+Author SirLiveAlot(Corey) (SirLiveAlot@shaw.ca)
+files: style.cgz, style.txt
+------------------------------>Useless info<---------------------------------
+release:Febuary 26, 2004
+Cube (http://www.cubeengine.com/)
+Mode: Muiltiplayer
+Players:2-10
+Base: scratch
+Build time: 3 Days
+Map#: 18
+------------------------------>Installation<---------------------------------
+To install it put it in the base folder of packages.
+--------------------------------->Rants<-------------------------------------
+I had an idea that maybe I should make a multiplayer map of Thought the ages.
+tta wouldn't of worked in multiplayer because taveling though diffrent areas
+by portal in a multiplayer map doesn't work well. So, I decided to make a
+free flowing map involving diffrent styles that hopefully work together.
+------------------------------->Permissions<---------------------------------
+You're free to distribute this map as you wish as long as: you make no
+profit, and leave the files intact.  I reserve the right to ask you to
+remove files.  You're free to use the map as a base for your own work if
+you ask for permission and give me credit.

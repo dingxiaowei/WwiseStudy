@@ -1,0 +1,33 @@
+environment map for Quake][
+---------------------------------------------------------
+
+archive:	snow.zip
+author:		stecki
+e-mail: 	stecki@frag.com
+web:		http://www.frag.com/deconstruct/
+
+this is set for both software and openGL users.  But for some reason, my openGL doesn't load the .TGA files...  hmmm...
+
+
+how to use the damned files:
+---------------------------------------------------------
+
+unzip all this stuff (except the text, woops, too late...) to:
+
+	/Quake2/baseq2/env/
+
+Start Quake 2.
+Get in the game and open a console with the ~ key (a tilda the hun) and type in:
+
+	sky snow
+
+get rid of the console and go to a window or go outside (in quake2 that is, not for real...)  check out the sky, it should be different.  It isn't?  Uh oh, you messed up, 'cause it worked here.  e-mail me...
+
+
+
+what you can do with this stuff:
+---------------------------------------------------------
+
+abuse it, lose it, cheat on it, ask for it back, whatever your mind can come up with.  All I ask is that if this is used for a TC/PC/Mission Pak/or other form of Quake2 thing, let me know and give me a credit line for it.  it would really make me happy to see that.  If you use it and make money off it, I'd like a ferrari f40 please.  anyways, i'm pretty cool with this crap, just let me know eh?
+
+eat, sleep, drink, quake2.  oh, forget that sleep part.

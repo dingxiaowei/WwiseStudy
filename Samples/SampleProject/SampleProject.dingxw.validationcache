@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationCache Version="1" SchemaVersion="94">
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\Actor-Mixer Hierarchy\Ambisonics.wwu" DateLow="1560477399" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\Actor-Mixer Hierarchy\Car Engine.wwu" DateLow="1560477399" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1560477399" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\Actor-Mixer Hierarchy\Dialogues.wwu" DateLow="1560477399" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\Actor-Mixer Hierarchy\Footsteps.wwu" DateLow="1560477399" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\Actor-Mixer Hierarchy\MIDI.wwu" DateLow="1560477399" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\Actor-Mixer Hierarchy\Minigun.wwu" DateLow="1560477399" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\Actor-Mixer Hierarchy\NYC Ambience.wwu" DateLow="1560477399" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\Actor-Mixer Hierarchy\SoundSeed Impact.wwu" DateLow="1560477399" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\Attenuations\Ambience.wwu" DateLow="1560477399" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\Attenuations\Default Work Unit.wwu" DateLow="1560477399" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\Attenuations\Footsteps.wwu" DateLow="1560477399" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\Attenuations\Minigun.wwu" DateLow="1560477399" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\Audio Devices\Default Work Unit.wwu" DateLow="1560477399" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1560477399" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\Control Surface Sessions\MIDI.wwu" DateLow="1560477399" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\Conversion Settings\Default Work Unit.wwu" DateLow="1560477399" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\Conversion Settings\MIDI.wwu" DateLow="1560477399" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1560477399" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\Dynamic Dialogue\Dialogue.wwu" DateLow="1560477399" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\Effects\Ambisonics.wwu" DateLow="1560477399" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\Effects\Default Work Unit.wwu" DateLow="1560477399" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\Effects\Environments.wwu" DateLow="1560477399" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\Effects\Factory Effects.wwu" DateLow="1560477399" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\Effects\Factory McDSP Effects.wwu" DateLow="1560477399" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\Effects\MIDI.wwu" DateLow="1560477399" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\Events\Ambience.wwu" DateLow="1560477399" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\Events\Car Engine.wwu" DateLow="1560477399" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\Events\Default Work Unit.wwu" DateLow="1560477399" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\Events\Footsteps.wwu" DateLow="1560477399" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\Events\MIDI.wwu" DateLow="1560477399" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\Events\Minigun.wwu" DateLow="1560477399" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\Events\Music.wwu" DateLow="1560477399" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\Game Parameters\Ambience.wwu" DateLow="1560477399" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\Game Parameters\Car Engine.wwu" DateLow="1560477399" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\Game Parameters\Default Work Unit.wwu" DateLow="1560477399" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\Game Parameters\Music.wwu" DateLow="1560477399" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\Game Parameters\SoundSeed Impact.wwu" DateLow="1560477399" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1560477399" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\Interactive Music Hierarchy\MIDI.wwu" DateLow="1560477399" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\Interactive Music Hierarchy\Music.wwu" DateLow="1560477399" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1560477399" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\Mixing Sessions\Default Work Unit.wwu" DateLow="1560477399" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\Modulators\Default Work Unit.wwu" DateLow="1560477399" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\Modulators\MIDI.wwu" DateLow="1560477399" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\Presets\Default Work Unit.wwu" DateLow="1560477409" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\Queries\Default Work Unit.wwu" DateLow="1560477409" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\Queries\Factory Queries.wwu" DateLow="1560477409" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\SampleProject.wproj" DateLow="1560477409" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\SoundBanks\Default Work Unit.wwu" DateLow="1560477409" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1560477409" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\Soundcaster Sessions\MIDI.wwu" DateLow="1560477409" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\Soundcaster Sessions\Minigun.wwu" DateLow="1560477409" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\Soundcaster Sessions\Music.wwu" DateLow="1560477409" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\States\Default Work Unit.wwu" DateLow="1560477409" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\States\Dynamic Dialogue.wwu" DateLow="1560477409" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\States\MIDI.wwu" DateLow="1560477409" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\States\Music.wwu" DateLow="1560477409" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\Switches\Default Work Unit.wwu" DateLow="1560477409" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\Switches\Footsteps.wwu" DateLow="1560477409" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\Switches\SS_Impact.wwu" DateLow="1560477409" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\Triggers\Default Work Unit.wwu" DateLow="1560477409" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\Triggers\Music.wwu" DateLow="1560477409" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Study\gitoschina\WwiseStudy\Samples\SampleProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1560477409" DateHigh="0"/>
+</ValidationCache>

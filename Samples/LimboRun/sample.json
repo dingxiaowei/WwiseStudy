@@ -1,0 +1,25 @@
+{
+    "id": "Limbo",
+    "displayName": "Limbo",
+    "description": "The award-winning LIMBO game with complete Wwise project and companion documentation.",
+    "imagePath": "Limbo.png",
+    "wwiseProjectFilePath": "Resources/audio/Limbo/Limbo.wproj",
+    "demos": [
+        {
+            "displayName": "Run Limbo",
+            "filePath": "PlayGame/Limbo.exe"
+        }
+    ],
+    "documentation": [
+        {
+            "language": "en",
+            "displayName": "View Documentation",
+            "filePath": "PlayGame/TheLimboProject_En.pdf"
+        },
+        {
+            "language": "ja",
+            "displayName": "View Documentation",
+            "filePath": "PlayGame/TheLimboProject_Ja.pdf"
+        }
+    ]            
+}

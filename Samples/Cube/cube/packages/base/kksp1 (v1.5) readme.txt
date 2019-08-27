@@ -1,0 +1,52 @@
+---- #Title# ----------------------------------------------------------------------------------------
+
+THE OLD TUNNEL v1.5 (kksp1v1.5) Readme File
+
+
+
+---- #Stats# ----------------------------------------------------------------------------------------
+
+Title       : The old tunnel v1.5 (kksp1)
+Author      : KREiM (Stefan Kramer) 
+E-Mail      : kreim.kramer@web.de
+Webpage     : not yet
+released    : 25.04.2004
+game        : Cube: release version 12-23-03 (http://wouter.fov120.com/cube/)
+build time  : over 60 hours
+
+
+
+---- #Description# -----------------------------------------------------------------------------------
+
+a medium size, funny single player map for cube.
+you have to steal the quad in the factory. fight about many monsters, open doors with triggers
+and gather health and weapons. 
+
+
+
+---- #Installation# ----------------------------------------------------------------------------------
+
+Extract "kksp1(v1.5).zip" into "..\packages\base" of your cube install.
+
+To play the map start up cube open the console (press §). Type "sp kksp1" and press enter.
+
+Enjoy
+
+
+
+---- #Thanks & Links# --------------------------------------------------------------------------------
+
+thanks to Wouter van Oortmerssen (Aardappel) for the nice, good and funny game CUBE.
+http://wouter.fov120.com/cube/
+
+thanks to pushplay ( http://www.cursesandepithets.com/cube ), jcdpc ( http://www.websamba.com/jcdpc ) 
+and driAn ( http://www.drian.tk ) for their tipps and reviews.
+
+
+
+---- #Copyright & Permission# ------------------------------------------------------------------------
+
+You're free to distribute this map if you don't make profit. you can take over the ideas in this map, 
+but don't take the map as a base for your own maps. if you distribute this map you have to write down 
+the right author name: KREiM (stefan kramer) and the right map name: the old tunnel (kksp1).
+

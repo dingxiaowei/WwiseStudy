@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{ED23F4DA-DCE5-4423-887B-E01272D6C483}" SchemaVersion="94">
+	<Events>
+		<WorkUnit Name="Minigun" ID="{ED23F4DA-DCE5-4423-887B-E01272D6C483}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Minigun" ID="{2B98695B-2238-45B1-89C5-A5B826472425}">
+					<ChildrenList>
+						<Action Name="" ID="{81524933-EE47-4F74-8965-472172F06D33}" ShortID="548583267">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Minigun_Barrel_Start" ID="{8C0FD1AD-E45D-408D-9BF3-874970CCC123}" WorkUnitID="{C15C1E1F-823E-42FF-B836-EEE952212586}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{C3C412A6-95BB-416C-95DE-DBA385792434}" ShortID="950254304">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="Delay" Type="Real64" Value="0.9"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fire" ID="{7088E07A-906D-446B-9874-CD17F803B681}" WorkUnitID="{C15C1E1F-823E-42FF-B836-EEE952212586}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2697DD8F-D0C9-4343-A14F-1B64F4EFD948}" ShortID="405366939">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="Delay" Type="Real64" Value="1.2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Shells" ID="{8A261B8F-89AA-490E-A62A-2551D87F3E56}" WorkUnitID="{C15C1E1F-823E-42FF-B836-EEE952212586}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Minigun" ID="{CBA334AA-6BC1-4847-854B-A9B55D1571FE}">
+					<ChildrenList>
+						<Action Name="" ID="{E41114BF-B1DD-4BC6-82C3-9D499B3CB31C}" ShortID="378120700">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="FadeInCurve" Type="int16" Value="0"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Minigun_Barrel_Stop" ID="{E49E4A98-D739-40FA-832D-E36509699D48}" WorkUnitID="{C15C1E1F-823E-42FF-B836-EEE952212586}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{801D1611-00C2-4C1E-929E-7FA44F078496}" ShortID="87309462">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Minigun_Barrel_Start" ID="{8C0FD1AD-E45D-408D-9BF3-874970CCC123}" WorkUnitID="{C15C1E1F-823E-42FF-B836-EEE952212586}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A8582CCB-DBAE-4E40-B72A-E3FA4B51F301}" ShortID="993438191">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="34"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fire" ID="{7088E07A-906D-446B-9874-CD17F803B681}" WorkUnitID="{C15C1E1F-823E-42FF-B836-EEE952212586}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F1EE7D3A-A9F1-477A-BC4E-F883A859CD5B}" ShortID="770034625">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="34"/>
+								<Property Name="Delay" Type="Real64" Value="1.4"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Shells" ID="{8A261B8F-89AA-490E-A62A-2551D87F3E56}" WorkUnitID="{C15C1E1F-823E-42FF-B836-EEE952212586}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{71247B77-226A-4405-93DB-95421DC96BEE}" SchemaVersion="94">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{71247B77-226A-4405-93DB-95421DC96BEE}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="PlayerLife" ID="{B35C859F-4841-49E0-8B98-85DFAC37BFF5}">
+					<Comment>Player is alive or dead.</Comment>
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0.25"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{39D7FC90-549C-4DC5-AC21-CB6954DDD32F}"/>
+						<State Name="Dead" ID="{88957439-75EF-4388-B7D5-C80FBE8EE054}"/>
+						<State Name="Alive" ID="{9C5D7F20-92FC-4387-9BCC-F6F4D27F9B34}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="Dead" ID="{88957439-75EF-4388-B7D5-C80FBE8EE054}"/>
+							<EndState Name="Alive" ID="{9C5D7F20-92FC-4387-9BCC-F6F4D27F9B34}"/>
+							<Time>0</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+				<StateGroup Name="PlayerInWater" ID="{9FC18908-F5D8-4C11-B89E-48E8C6E4FBC0}">
+					<Comment>Player is in water.</Comment>
+					<ChildrenList>
+						<State Name="None" ID="{3F8341B5-F82B-487B-85E9-55F1A71482A9}"/>
+						<State Name="Yes" ID="{63BB475D-29FC-41C6-9220-8C0153A4A3BB}"/>
+						<State Name="No" ID="{775A9F44-C705-44B4-B0F6-CAD5DE184C9A}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="PlayerHasQuad" ID="{9BF1FC8F-1690-439E-AB8F-460634D9E61E}">
+					<Comment>Player is in quad damage mode.</Comment>
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0.1"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{75CE2A16-06FA-4B7B-98DD-ED2B7332C4ED}"/>
+						<State Name="No" ID="{DE75061E-028A-4D05-8487-2B76CFA42B90}"/>
+						<State Name="Yes" ID="{0B88A8D2-2D65-4B5E-A92A-10DB34C07E8F}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

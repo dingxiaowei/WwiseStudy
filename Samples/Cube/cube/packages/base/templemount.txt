@@ -1,0 +1,12 @@
+Temple Mount v1.0
+       by
+    The Punk
+ 
+Installation: Extract to /cube
+              type "/map templemount" to play/vote 
+
+
+
+Do not modify without prior written permission by the author. 
+
+dwbox@hotmail.com

@@ -1,0 +1,35 @@
+ --=[ Title ]=------------------------------------------------------------
+Infertile Mind
+pushplay (Jeffery Grajkowski) (pushplay@shaw.ca)
+	(http://www.cursesandepithets.com/cube/)
+
+ --=[ Stats ]=------------------------------------------------------------
+files: infertile.cfg, infertile.cgz, infertile.txt
+released: February 18, 2004
+game: Cube (http://wouter.fov120.com/cube/)
+format: ffa
+players: 2-3
+base: scratch
+build time: 13 hours
+
+ --=[ Installation ]=-----------------------------------------------------
+Extract to packages/base.
+
+ --=[ The Speech ]=-------------------------------------------------------
+And so this is my spring break map.  For once I made the layout first
+instead of just winging it.  This is as much map as I can cram into a
+really small place.  The red lights and thick red fog make a nice
+contrast against the pale yellow walls and the pale blue sky.
+
+ --=[ Custom Textures ]=--------------------------------------------------
+Nada.
+
+ --=[ Permissions ]=------------------------------------------------------
+You're free to distribute this map as you wish as long as: you make no
+profit, and leave the files intact.  I reserve the right to ask you to
+remove files.  You're free to use the map as a base for your own work if
+you ask for permission and give me credit.  Textures created by me can be
+used if I'm given credit, textures I've modified are also restricted by the
+original author's wishes.
+
+ --=[ EOF ]=--------------------------------------------------------------

@@ -1,0 +1,60 @@
+--------- CAMERA ---------------------------
+
+A single player map for CUBE (release version 5/22/04 or later)
+
+by spentron (Bill Spencer)
+spentron@draac.com            spentron.web1000.com
+                       www.intergate.com/~spentron
+
+--INFOS------------------------------------------------------------
+released: June 5, 2004
+game: Cube (http://wouter.fov120.com/cube/  www.cubeengine.com)
+format: single player
+base: scratch (256^2 cubes)
+build time: 6 weeks
+music: uses Cube 5/04 soundtrack by Fanatic, change for other (at top of camera.cfg)
+
+-- INSTALLATION ---------------------------------------------------
+Extract all files into the folder "packages" within your CUBE folder, with the
+"use folder names" option checked. This will create the "spen" folder in "packages"
+and place the map files in the "base" folder.
+
+To play: Start Cube and open the console using tilde (~) key, leave the slash there. 
+         Type   sp camera   and enter for normal difficulty.
+         
+-- STORY ---------------------------------------------------------
+Say "Cheese"!
+
+--MAP NOTES---------------------------------------------------
+1. Jump pads are indicated by lighted squares. 
+2. Do not activate edit mode when playing, gameplay will be ruined. If this
+   accidently happens, restart the level or reload a saved game. If accidently
+   hitting the edit key (normally E) is a problem, bind the key to another 
+   function (example command:  bind e "weapon" ).
+3. Exception to (2): press edit twice immediately after starting for easy mode
+   (works properly with this level only, uneven).
+
+--CUBE NOTES-------
+F8=quicksave. F9=quickload. Cube's built-in skill settings may be altered in mid-level.
+
+I may have seen the game not do a trigger properly. It is already a good idea to do 
+savegames right before rather than right after taking a trigger or switch. If you get to the
+end arena and have a problem, the trigger sequence (command trigger N) for the barriers is 9, 10, 12, 11.
+ 
+--THANKS------------
+Thanks to everyone involved for making Cube the Game it is. In addition this level was made 
+possible by Aardappel, dcp and the other modellers, and the texture artists, and the music
+of Fanatic adds the final touch. Testing: SirLiveAlot, jcdpc.  
+
+-- Permissions/Copyright ------------------------------------------------------
+Map design is copyright 2004 Bill Spencer.
+You're free to distribute this map pack as you wish as long as: you make no
+profit, and leave the entire archive intact.  However, Internet distribution is to be 
+only through web sites of my choosing as long as one exists.  *Elements* of the map
+may be used only as provided below.
+
+The qb2x2 mapmodel by dcp and a special skin is included, see text.
+
+The skybox is copyright myself and may be freely distributed in maps
+provided I am credited and you let me know if you use it for a game other than Cube.
+--------------------------------------------------------

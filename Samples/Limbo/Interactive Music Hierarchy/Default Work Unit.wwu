@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1B8CB030-FD12-459B-9A46-2DFCF40FDF4E}" SchemaVersion="94">
+	<InteractiveMusic>
+		<WorkUnit Name="Default Work Unit" ID="{1B8CB030-FD12-459B-9A46-2DFCF40FDF4E}" PersistMode="Standalone">
+			<Comment>Limbo Wwise project
+COPYRIGHT MMX BY PLAYDEAD ApS </Comment>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{227D1C90-0477-42FF-9C75-89784F1C822E}" SchemaVersion="94">
+	<GameParameters>
+		<WorkUnit Name="SwordsAndShovels" ID="{227D1C90-0477-42FF-9C75-89784F1C822E}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Hero_Helth" ID="{5A85B615-8549-4B97-9DD5-4580DF5D00DB}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

@@ -1,0 +1,55 @@
+"Castle Rampage"
+Modified versions by Bill Spencer 3/30/04	
+spentron@draac.com    www.intergate.com/~spentron
+
+Maps:
+rampage_min -- Minimal change, 7 more monsters make the beginning more challenging,
+ which extends tension into the level as the player recovers.
+rampage_hd -- full out, 134 monsters vs. the original's 29. Added resources. New triggers
+ bring forth more monsters; kill all to finish.
+rampage -- moderation of hard version, 124 monsters.
+
+To play, run cube, then in the game press the tilde key (~), and type after the slash:
+sp rampage  (for moderate version, or change mapname to suit). Note, all these levels
+use Geometry-Controlled Creature Insertion Devices (GCCIDs ;) ) aka "monster machines", 
+so pressing edit anytime during the game will make it impossible to kill all the monsters
+(and finish the full versions) -- if this happens, press edit again to return to game mode,
+and reload the last savegame or restart the level.
+
+---------------the original textfile follows-----------------
+
+Title:         "Castle Rampage"
+Author:        Marc A. Pullen (Fanatic)
+Released:      2004-03-23
+Email:         fanatic@fanaticalproductions.net
+Website:       http://fanaticalproductions.net
+Engine:        cube_2003_12_23.zip
+Other Projects: DOOM:       HacX, QDOOM, EDGE development/support/design, RUINS, ROKS, New Breed, Music for various projects etc.
+                Stronghold: Several levels (see my Website for screenshots and whatnot)
+                Cube:       Wandering, Caged
+
+=============
+To Play:
+=============
+
+Unzip this file to where you installed your Cube package into the "packages\base" folder.
+
+Run cube, then in the game press the tilde key (~), and type:
+
+/map fanatic_castle_rampage
+
+=============
+Level Notes:
+=============
+
+This level is mostly complete, it just needs some minor work on the map layout, and definately a better end area (where the main outdoor water cave area is).
+
+Monster placement I did sucks and should be redone, in addition to adding some triggers to open walls and have monsters spring out at the player (like in DOOM levels).
+
+Also, I made some effort to break up the middle of the castle between the caves, left and right hand rooms, and the courtyard. Slower PCs will hurt in that area because of the amount of stuff that is visible.
+
+Anyone can do anything with this level, just give me credit for the base of your efforts.
+
+Enjoy!
+
+    -Fanatic

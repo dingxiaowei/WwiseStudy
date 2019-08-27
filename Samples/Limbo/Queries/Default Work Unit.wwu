@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{464AE00F-F41A-497F-AC83-2208C31EB968}" SchemaVersion="94">
+	<Queries>
+		<WorkUnit Name="Default Work Unit" ID="{464AE00F-F41A-497F-AC83-2208C31EB968}" PersistMode="Standalone">
+			<Comment>Limbo Wwise project
+COPYRIGHT MMX BY PLAYDEAD ApS </Comment>
+			<ChildrenList>
+				<Query Name="bus" ID="{8D1DCC23-0F03-44F7-9B9E-BD81D57192CD}">
+					<PropertyList>
+						<Property Name="ObjectType" Type="int32" Value="200"/>
+					</PropertyList>
+					<ChildrenList>
+						<SearchCriteria Name="Output BusOutput Bus" ID="{73184CD8-93F6-42C1-80BB-131BEF08B6F6}" SearchOperationID="{A6133310-6FD3-4F2B-A106-827C18BEB4D9}">
+							<PropertyList>
+								<Property Name="OutputBus" Type="string" Value="{B4876AC1-0EDA-4F83-B2D8-0F7920ABCCFA}"/>
+							</PropertyList>
+						</SearchCriteria>
+					</ChildrenList>
+				</Query>
+				<Query Name="attenuation" ID="{3DAC2FE7-DDF1-4215-9647-2C1BB00EE782}">
+					<PropertyList>
+						<Property Name="ObjectType" Type="int32" Value="200"/>
+					</PropertyList>
+					<ChildrenList>
+						<SearchCriteria Name="PositioningAttenuationShared By" ID="{0B59EA46-6B4F-4B9E-827D-682128905B1B}" SearchOperationID="{8870124D-9607-4E43-B895-2092138DF3C8}">
+							<PropertyList>
+								<Property Name="Attenuation" Type="string" Value="{F02FCBC8-43F1-4FE6-9CE1-E367173ABABB}"/>
+							</PropertyList>
+						</SearchCriteria>
+					</ChildrenList>
+				</Query>
+				<Query Name="New Query" ID="{718BF8CB-76D8-4B33-A1A7-A7679DD33558}">
+					<ChildrenList>
+						<SearchCriteria Name="EffectProperty" ID="{5B6662A3-A2C1-4E3C-A87C-A7454BF18FAA}" SearchOperationID="{8504F8DE-775D-4B1B-94EA-723AD8AAFD22}">
+							<PropertyList>
+								<Property Name="EffectClassID" Type="string" Value="6881283"/>
+								<Property Name="LeftValue" Type="Real64" Value="6"/>
+								<Property Name="PropertyName" Type="string" Value="OutputLevel"/>
+							</PropertyList>
+						</SearchCriteria>
+					</ChildrenList>
+				</Query>
+				<Query Name="sampleAccurate" ID="{02EF1B89-90B4-47C4-A0E9-6FE4B48290CB}">
+					<PropertyList>
+						<Property Name="ObjectType" Type="int32" Value="700"/>
+					</PropertyList>
+				</Query>
+				<Query Name="loopedSound" ID="{CFCC30B9-D704-4D56-A5CF-1ACD00ACE89C}">
+					<PropertyList>
+						<Property Name="ObjectType" Type="int32" Value="800"/>
+					</PropertyList>
+					<ChildrenList>
+						<SearchCriteria Name="PropertyValue" ID="{99E065F3-79DE-4BE0-9E52-4E937C38FCAA}" SearchOperationID="{560736B7-4F5C-4EF7-9354-8D8DC6BBD70A}">
+							<PropertyList>
+								<Property Name="IsChecked" Type="bool" Value="True"/>
+								<Property Name="PropertyName" Type="string" Value="IsLoopingEnabled"/>
+							</PropertyList>
+						</SearchCriteria>
+					</ChildrenList>
+				</Query>
+			</ChildrenList>
+		</WorkUnit>
+	</Queries>
+</WwiseDocument>

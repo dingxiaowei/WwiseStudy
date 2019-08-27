@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PluginInfo Project="Cube" Platform="Windows" BasePlatform="Windows">
+	<Plugins>
+		<Plugin Name="Wwise Silence" ID="6619138" DLL="AkSilenceGenerator"/>
+		<Plugin Name="Wwise Tone Generator" ID="6684674" DLL="AkToneGen"/>
+		<Plugin Name="Wwise Parametric EQ" ID="6881283" DLL="AkParametricEQ"/>
+		<Plugin Name="Wwise Compressor" ID="7077891" DLL="AkCompressor"/>
+		<Plugin Name="Wwise Peak Limiter" ID="7208963" DLL="AkPeakLimiter"/>
+		<Plugin Name="Wwise Matrix Reverb" ID="7536643" DLL="AkMatrixReverb"/>
+		<Plugin Name="Wwise RoomVerb" ID="7733251" DLL="AkRoomVerb"/>
+		<Plugin Name="Wwise Meter" ID="8454147" DLL="AkSoundEngineDLL"/>
+		<Plugin Name="Wwise Gain" ID="9109507" DLL="AkGain"/>
+		<Plugin Name="Wwise Synth One" ID="9699330" DLL="AkSynthOne"/>
+		<Plugin Name="System" ID="11403271" DLL="DefaultSink"/>
+		<Plugin Name="No Output" ID="11862023" DLL="DefaultSink"/>
+	</Plugins>
+</PluginInfo>

@@ -1,0 +1,47 @@
+Title:         "Revenge"
+Author:        Marc A. Pullen (Fanatic)
+Released:      2004-06-21
+Email:         fanatic@fanaticalproductions.net
+Website:       http://fanaticalproductions.net
+Engine:        2004 release
+Other Projects: DOOM:       HacX, QDOOM, EDGE development/support/design, RUINS, ROKS, New Breed, Music for various projects etc.
+                Stronghold: Several levels (see my Website for screenshots and whatnot)
+                Cube:       Caged, Castle Rampage, and Wandering
+
+=============
+To Install:
+=============
+
+IMPORTANT!
+
+Unzip this file to where you installed your Cube package into the "packages\" folder, extracting with directory structure.
+
+This will place my revenge*.* files in the "packages\fanatic" folder, and some new models from dcp in "models\dcp".
+
+See http://cube.dietmarpier.de/ for dcp's other awesome add-ons and replacements for Cube.
+
+Also, you may want to tweak or remove some settings in the revenge.cfg if you are running a slow computer.
+
+=============
+To Play:
+=============
+
+Run cube, then in the game press the tilde key (~), and type:
+
+/mode -2 (if you want to play this level as single player, otherwise just the next line if you want to look around)
+
+/map fanatic\revenge
+
+=============
+Level Notes:
+=============
+
+The level is something that I just felt like doing, more for a design fun than playing. I'm still quite impressed with how much you can make with Cube, and how fun and easy it is to edit.
+
+I play tested this fairly lightly, so it will most likely be hard (if not very difficult/impossible) to finish. I ran fairly low on ammo and health in many places, but it was a good challenge.
+
+The music is an original song I wrote, you can do anything with it for non-commercial and non-profit uses.
+
+Enjoy!
+
+    -Fanatic

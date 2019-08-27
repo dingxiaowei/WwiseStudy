@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{26BA90EB-5AB2-4A0B-8350-1FE7E8644F10}" SchemaVersion="94">
+	<ControlSurfaceSessions>
+		<WorkUnit Name="MIDI" ID="{26BA90EB-5AB2-4A0B-8350-1FE7E8644F10}" PersistMode="Standalone">
+			<ChildrenList>
+				<ControlSurfaceSession Name="MIDI" ID="{50224136-4045-4EF8-8252-F04B89BAD42F}">
+					<ChildrenList>
+						<ControlSurfaceBindingGroup Name="Global" ID="{9F47B367-71B1-446A-80E9-A63D985B9E7C}"/>
+						<ControlSurfaceBindingGroup Name="Current Selection" ID="{93B32BB4-4BCD-41AD-8DC7-4643EC8BD42A}">
+							<PropertyList>
+								<Property Name="GroupType" Type="int16" Value="4"/>
+							</PropertyList>
+							<ChildrenList>
+								<ControlSurfaceBinding Name="Binding" ID="{B24BE699-8813-45D6-B991-CD1124F519ED}">
+									<PropertyList>
+										<Property Name="TargetName" Type="string" Value="PassMidiNote"/>
+										<Property Name="TargetType" Type="int16" Value="1"/>
+									</PropertyList>
+								</ControlSurfaceBinding>
+							</ChildrenList>
+						</ControlSurfaceBindingGroup>
+						<ControlSurfaceBindingGroup Name="View Groups" ID="{1175A4E0-8351-4D2F-B118-A0503168EC48}">
+							<PropertyList>
+								<Property Name="GroupType" Type="int16" Value="3"/>
+							</PropertyList>
+						</ControlSurfaceBindingGroup>
+					</ChildrenList>
+				</ControlSurfaceSession>
+			</ChildrenList>
+		</WorkUnit>
+	</ControlSurfaceSessions>
+</WwiseDocument>
