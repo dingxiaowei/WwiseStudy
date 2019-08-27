@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{453F5AC0-CFCE-4271-BE14-752C5F5B245A}" SchemaVersion="94">
-	<DynamicDialogue>
-		<WorkUnit Name="Default Work Unit" ID="{453F5AC0-CFCE-4271-BE14-752C5F5B245A}" PersistMode="Standalone">
-			<Comment>Limbo Wwise project
-COPYRIGHT MMX BY PLAYDEAD ApS </Comment>
-		</WorkUnit>
-	</DynamicDialogue>
-</WwiseDocument>

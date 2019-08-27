@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{51E6AEC9-03BD-4CB1-8969-1C85DB7ADB1C}" SchemaVersion="94">
-	<MixingSessions>
-		<WorkUnit Name="Default Work Unit" ID="{51E6AEC9-03BD-4CB1-8969-1C85DB7ADB1C}" PersistMode="Standalone">
-			<Comment>Limbo Wwise project
-COPYRIGHT MMX BY PLAYDEAD ApS </Comment>
-		</WorkUnit>
-	</MixingSessions>
-</WwiseDocument>
